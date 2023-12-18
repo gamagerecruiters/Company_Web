@@ -32,7 +32,7 @@ export default function journey() {
                                     </h2>
                                     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                                         <p className="mb-3 text-gray-900 dark:text-gray-900">
-                                            In the dynamic realm of executive search and recruitment, our commitment to client satisfaction
+                                            " In the dynamic realm of executive search and recruitment, our commitment to client satisfaction
                                             is the linchpin of our identity as a leading employment agency based in Sri Lanka. With an illustrious
                                             journey spanning over five years, we have cultivated unparalleled expertise and an extensive network,
                                             positioning us as trailblazers in the industry.</p>
@@ -45,7 +45,7 @@ export default function journey() {
                                         As we reflect on our journey, our commitment remains steadfast – to uphold the
                                         highest standards of professionalism, integrity, and excellence. We look forward to
                                         continuing our mission of facilitating unparalleled talent fulfillment, ensuring our clients'
-                                        sustained success amidst the ever-evolving landscape of the business world... Best Regards</p>
+                                        sustained success amidst the ever-evolving landscape of the business world... "</p>
                                     <p className="mb-3 text-gray-900 dark:text-gray-900">
                                         Best Regards</p>
 
@@ -116,7 +116,7 @@ export default function journey() {
                             </div>
                         </div>
                     </div>
-                    <div className="relative overflow-hidden bg-cover bg-no-repeat bg-[20%] h-[200px] bg-[url('https://tecdn.b-cdn.net/img/new/standard/city/078.jpg')]">
+                    <div className="mt-20 relative overflow-hidden bg-cover bg-no-repeat bg-[20%] h-[200px] bg-[url('https://tecdn.b-cdn.net/img/new/standard/city/078.jpg')]">
                         <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.75)]">
                             <div className="flex h-full items-center justify-center">
                                 <div className="px-6 text-center text-white md:px-12">
@@ -141,17 +141,17 @@ export default function journey() {
                             </div>
                         </div>
                     </div>
-                    <div className="text-center mt-10 max-w-xl mx-auto">
+                    <div className="text-center mt-20 max-w-xl mx-auto">
                         <h2 className="text-4xl font-bold text-gray-800 mb-4 md:mb-6">OUR SERVICE</h2>
                     </div>
-                    <div className="mt-5 grid grid-cols-1 gap-14 items-center md:grid-cols-2 lg:grid-cols-4">
+                    <div className="mt-20 grid grid-cols-1 gap-14 items-center md:grid-cols-2 lg:grid-cols-4">
 
                         <div className="max-w-sm p-6 bg-white border border-gray-100 rounded-lg shadow bg-white">
                             <svg className="w-7 h-7 text-gray-800 dark:text-gray-800 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                 <path d="M18 5h-.7c.229-.467.349-.98.351-1.5a3.5 3.5 0 0 0-3.5-3.5c-1.717 0-3.215 1.2-4.331 2.481C8.4.842 6.949 0 5.5 0A3.5 3.5 0 0 0 2 3.5c.003.52.123 1.033.351 1.5H2a2 2 0 0 0-2 2v3a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7a2 2 0 0 0-2-2ZM8.058 5H5.5a1.5 1.5 0 0 1 0-3c.9 0 2 .754 3.092 2.122-.219.337-.392.635-.534.878Zm6.1 0h-3.742c.933-1.368 2.371-3 3.739-3a1.5 1.5 0 0 1 0 3h.003ZM11 13H9v7h2v-7Zm-4 0H2v5a2 2 0 0 0 2 2h3v-7Zm6 0v7h3a2 2 0 0 0 2-2v-5h-5Z" />
                             </svg>
                             <a href="#">
-                                <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-gray-900">Executive Search & Headhunting </h5>
+                                <h5 className="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-gray-900">Executive Search & Headhunting </h5>
                             </a>
                             <p className="mb-3 font-normal text-gray-900 dark:text-gray-900">Go to this step by step guideline process on how to certify for your weekly benefits:</p>
                         </div>
@@ -160,7 +160,7 @@ export default function journey() {
                                 <path d="M18 5h-.7c.229-.467.349-.98.351-1.5a3.5 3.5 0 0 0-3.5-3.5c-1.717 0-3.215 1.2-4.331 2.481C8.4.842 6.949 0 5.5 0A3.5 3.5 0 0 0 2 3.5c.003.52.123 1.033.351 1.5H2a2 2 0 0 0-2 2v3a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7a2 2 0 0 0-2-2ZM8.058 5H5.5a1.5 1.5 0 0 1 0-3c.9 0 2 .754 3.092 2.122-.219.337-.392.635-.534.878Zm6.1 0h-3.742c.933-1.368 2.371-3 3.739-3a1.5 1.5 0 0 1 0 3h.003ZM11 13H9v7h2v-7Zm-4 0H2v5a2 2 0 0 0 2 2h3v-7Zm6 0v7h3a2 2 0 0 0 2-2v-5h-5Z" />
                             </svg>
                             <a href="#">
-                                <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-gray-900">Professional resume writing </h5>
+                                <h5 className="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-gray-900">Professional resume writing </h5>
                             </a>
                             <p className="mb-3 font-normal text-gray-900 dark:text-gray-900">Go to this step by step guideline process on how to certify for your weekly benefits:</p>
                         </div>
@@ -169,7 +169,7 @@ export default function journey() {
                                 <path d="M18 5h-.7c.229-.467.349-.98.351-1.5a3.5 3.5 0 0 0-3.5-3.5c-1.717 0-3.215 1.2-4.331 2.481C8.4.842 6.949 0 5.5 0A3.5 3.5 0 0 0 2 3.5c.003.52.123 1.033.351 1.5H2a2 2 0 0 0-2 2v3a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7a2 2 0 0 0-2-2ZM8.058 5H5.5a1.5 1.5 0 0 1 0-3c.9 0 2 .754 3.092 2.122-.219.337-.392.635-.534.878Zm6.1 0h-3.742c.933-1.368 2.371-3 3.739-3a1.5 1.5 0 0 1 0 3h.003ZM11 13H9v7h2v-7Zm-4 0H2v5a2 2 0 0 0 2 2h3v-7Zm6 0v7h3a2 2 0 0 0 2-2v-5h-5Z" />
                             </svg>
                             <a href="#">
-                                <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-gray-900">Interview Preparation  </h5>
+                                <h5 className="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-gray-900">Interview Preparation  </h5>
                             </a>
                             <p className="mb-3 font-normal text-gray-900 dark:text-gray-900">Go to this step by step guideline process on how to certify for your weekly benefits:</p>
                         </div>
@@ -178,11 +178,201 @@ export default function journey() {
                                 <path d="M18 5h-.7c.229-.467.349-.98.351-1.5a3.5 3.5 0 0 0-3.5-3.5c-1.717 0-3.215 1.2-4.331 2.481C8.4.842 6.949 0 5.5 0A3.5 3.5 0 0 0 2 3.5c.003.52.123 1.033.351 1.5H2a2 2 0 0 0-2 2v3a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7a2 2 0 0 0-2-2ZM8.058 5H5.5a1.5 1.5 0 0 1 0-3c.9 0 2 .754 3.092 2.122-.219.337-.392.635-.534.878Zm6.1 0h-3.742c.933-1.368 2.371-3 3.739-3a1.5 1.5 0 0 1 0 3h.003ZM11 13H9v7h2v-7Zm-4 0H2v5a2 2 0 0 0 2 2h3v-7Zm6 0v7h3a2 2 0 0 0 2-2v-5h-5Z" />
                             </svg>
                             <a href="#">
-                                <h5 className="mb-10 text-2xl font-semibold tracking-tight text-gray-900 dark:text-gray-900">HR Consultancy  </h5>
+                                <h5 className="mb-10 text-3xl font-semibold tracking-tight text-gray-900 dark:text-gray-900">HR Consultancy  </h5>
                             </a>
                             <p className="mb-3 font-normal text-gray-900 dark:text-gray-900">Go to this step by step guideline process on how to certify for your weekly benefits:</p>
                         </div>
                     </div>
+
+                    <div className="text-center mt-20 max-w-xl mx-auto">
+                        <h2 className="text-4xl font-bold text-gray-800 mb-4 md:mb-6 uppercase">Our Specialties </h2>
+                    </div>
+
+                    <div className="mt-20 grid grid-cols-1 gap-14 items-center md:grid-cols-2 lg:grid-cols-3">
+                        <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                            <div className="h-96 w-84">
+                                <img className="h-full w-112 object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="https://images.assettype.com/fortuneindia%2F2019-02%2Fda36fc18-1887-4049-b186-5a22d8f61c7c%2FMotherson_Sumi_IMG_2330_copy.JPG?rect=0,0,5616,3159&w=1250&q=60" alt="" />
+                            </div>
+                            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                                <h1 className="mb-12 font-dmserif text-3xl font-bold text-white">Talent Management Excellence </h1>
+                                <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">   Leveraging our expertise in talent management, we meticulously identify, assess, and cultivate top-tier professionals to meet your organizational needs and objectives..</p>
+
+                            </div>
+                        </div>
+                        <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                            <div className="h-96 w-84">
+                                <img className="h-full w-112 object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="https://www.1training.org/wp-content/uploads/2015/01/Information-Technology-and-Cloud-Computing-1024x870-e1422276882760-1.jpg" alt="" />
+                            </div>
+                            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                                <h1 className="font-dmserif text-3xl font-bold text-white mb-10">Executive Search Mastery</h1>
+                                <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Our executive search services employ a rigorous methodology to source, evaluate, and secure high-caliber executives who align seamlessly with your company's vision and strategic goals.</p>
+
+                            </div>
+                        </div>
+                        <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                            <div className="h-96 w-84">
+                                <img className="h-full w-112 object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="https://www.greenbiz.com/sites/default/files/images/articles/featured/solarwind2sstock.jpg" alt="" />
+                            </div>
+                            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                                <h1 className="mb-20 font-dmserif text-3xl font-bold text-white">Competitive Pricing Structure</h1>
+                                <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Our pricing model is positioned below industry standards, ensuring exceptional value without compromising the quality of our services.</p>
+
+                            </div>
+                        </div>
+                        <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                            <div className="h-96 w-84">
+                                <img className="h-full w-112 object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="https://careertraining.ed2go.com/common/images/1/16862/phr-certification.jpg" alt="" />
+                            </div>
+                            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                                <h1 className="font-dmserif text-3xl font-bold text-white">Client-Centric Flexibility</h1>
+                                <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">We pride ourselves on a flexible approach tailored to the unique requirements of each client. Our adaptability ensures a customized solution that aligns seamlessly with your organizational dynamics.</p>
+
+                            </div>
+                        </div>
+                        <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                            <div className="h-96 w-84">
+                                <img className="h-full w-112 object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="https://dg1xqmhtoint1.cloudfront.net/img/ihm/blog/Hospitality-3.webp?mtime=20230420152018&focal=none" alt="" />
+                            </div>
+                            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                                <h1 className="font-dmserif text-3xl font-bold text-white">Uninterrupted Communication Channels</h1>
+                                <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">   We prioritize continuous and transparent communication, providing you with regular updates and insights throughout the engagement process. Our commitment to clear and timely communication fosters a collaborative and informed partnership.</p>
+
+                            </div>
+                        </div>
+                        <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                            <div className="h-96 w-84">
+                                <img className="h-full w-112 object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="https://globitexworld.com/wp-content/uploads/2019/12/slider1-silceb.jpg" alt="" />
+                            </div>
+                            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                                <h1 className="font-dmserif text-3xl font-bold text-white">Round-the-Clock Service</h1>
+                                <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Our dedicated team operates 24/7 to address your needs promptly. With an unwavering commitment to service excellence, we ensure uninterrupted support to meet the demands of your dynamic business environment..</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="ml-11 mt-32 max-w-xl mx-auto">
+                        <h2 className="text-2xl font-bold text-gray-800 mb-1 md:mb-2 uppercase">Why candidates must join with us to land their dream job? </h2>
+                    </div>
+
+                    <div className="mt-1 grid grid-cols-1 gap-14 items-center md:grid-cols-2 lg:grid-cols-2">
+
+                        <div className="mt-5">
+                            <ul className="">
+
+                                <li className="text-left mb-10">
+                                    <div className="flex flex-row items-start">
+                                        <div className="flex flex-col items-center justify-center mr-5">
+                                            <div
+                                                className="flex items-center justify-center h-20 w-20 rounded-full bg-blue-700 text-white border-4 border-white text-xl font-semibold">
+                                                1
+                                            </div>
+                                        </div>
+                                        <div className="bg-gray-100 p-5 pb-10 ">
+                                            <h4 className="text-xl leading-6 font-semibold text-gray-900">Expertise and Specialization</h4>
+                                            <p className="text-lg mt-2 leading-6 text-gray-700">
+                                                We specialize in industries and job sectors so candidates can increase
+                                                their chances of being matched with opportunities that closely align with their skills and career goals.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="text-left mb-10">
+                                    <div className="flex flex-row items-start">
+                                        <div className="flex flex-col items-center justify-center mr-5">
+                                            <div
+                                                className="flex items-center justify-center h-20 w-20 rounded-full bg-blue-700 text-white border-4 border-white text-xl font-semibold">
+                                                2
+                                            </div>
+                                        </div>
+                                        <div className="bg-gray-100 p-5 pb-10 ">
+                                            <h4 className="text-xl leading-6 font-semibold text-gray-900">Access to a Broad Network</h4>
+                                            <p className="text-lg mt-2 leading-6 text-gray-700">
+                                                We have extensive networks and relationships with a variety of employers.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="text-left mb-10">
+                                    <div className="flex flex-row items-start">
+                                        <div className="flex flex-col items-center justify-center mr-5">
+                                            <div
+                                                className="flex items-center justify-center h-20 w-20 rounded-full bg-blue-700 text-white border-4 border-white text-xl font-semibold">
+                                                3
+                                            </div>
+                                        </div>
+                                        <div className="bg-gray-100 p-5 pb-10 ">
+                                            <h4 className="text-xl leading-6 font-semibold text-gray-900">Professional Guidance</h4>
+                                            <p className="text-lg mt-2 leading-6 text-gray-700">
+                                                We offer professionals offer insights into the job market, industry trends, and effective job search strategies.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="mt-5">
+                            <ul className="">
+
+                                <li className="text-left mb-10">
+                                    <div className="flex flex-row items-start">
+                                        <div className="flex flex-col items-center justify-center mr-5">
+                                            <div
+                                                className="flex items-center justify-center h-20 w-20 rounded-full bg-blue-700 text-white border-4 border-white text-xl font-semibold">
+                                                4
+                                            </div>
+                                        </div>
+                                        <div className="bg-gray-100 p-5 pb-10 ">
+                                            <h4 className="text-xl leading-6 font-semibold text-gray-900">Streamlined Application Process</h4>
+                                            <p className="text-lg mt-2 leading-6 text-gray-700">
+                                                Candidates appreciate the streamlined and efficient application process facilitated by Gamage Recruiters.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="text-left mb-10">
+                                    <div className="flex flex-row items-start">
+                                        <div className="flex flex-col items-center justify-center mr-5">
+                                            <div
+                                                className="flex items-center justify-center h-20 w-20 rounded-full bg-blue-700 text-white border-4 border-white text-xl font-semibold">
+                                                5
+                                            </div>
+                                        </div>
+                                        <div className="bg-gray-100 p-5 pb-10 ">
+                                            <h4 className="text-xl leading-6 font-semibold text-gray-900">Confidentiality</h4>
+                                            <p className="text-lg mt-2 leading-6 text-gray-700">
+                                                By working with a Gamage Recruiters, candidates can explore job opportunities without their
+                                                current employers being aware, ensuring discretion in their job search.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="text-left mb-10">
+                                    <div className="flex flex-row items-start">
+                                        <div className="flex flex-col items-center justify-center mr-5">
+                                            <div
+                                                className="flex items-center justify-center h-20 w-20 rounded-full bg-blue-700 text-white border-4 border-white text-xl font-semibold">
+                                                6
+                                            </div>
+                                        </div>
+                                        <div className="bg-gray-100 p-5 pb-10 ">
+                                            <h4 className="text-xl leading-6 font-semibold text-gray-900">Career Support Services</h4>
+                                            <p className="text-lg mt-2 leading-6 text-gray-700">
+                                                We offer additional services such as resume reviews, interview preparation, and career counseling.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </section >
 
             </div >

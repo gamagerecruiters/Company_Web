@@ -1,4 +1,5 @@
 import "./styles/App.css";
+import Marquee from 'react-fast-marquee';
 
 import data from "../../data/index.json";
 
@@ -10,6 +11,8 @@ export default function Testimonial() {
           <h2 className="testimonial--section--heading lg:text-5xl uppercase">Customer Feedback</h2>
         </div>
       </div>
+      {/* <div className="bg-white "> */}
+      {/* <Marquee direction="right" speed={100} delay={5}> */}
       <div className="testimonial--section--container">
         {data?.testimonial?.map((item, index) => (
           <div key={index} className="testimonial--section--card">
@@ -44,6 +47,8 @@ export default function Testimonial() {
           </div>
         ))}
       </div>
+      {/* </Marquee> */}
+      {/* </div> */}
     </section >
 
   );
