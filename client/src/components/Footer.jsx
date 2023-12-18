@@ -104,21 +104,29 @@ const Footer = () => {
               className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
               INDUSTRIES
             </h6>
-            <p className="mb-4">
+            <p>
               <a className="text-neutral-600 dark:text-neutral-200"
-              >Shipping / Preight</a>
-            </p>
-            <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200"
-              >Hospitality</a>
-            </p>
-            <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200"
-              >Software/IT</a>
+              >Shipping / Freight</a>
             </p>
             <p>
               <a className="text-neutral-600 dark:text-neutral-200"
-              >HR</a>
+              >Hospitality</a>
+            </p>
+            <p>
+              <a className="text-neutral-600 dark:text-neutral-200"
+              >Information Technology</a>
+            </p>
+            <p>
+              <a className="text-neutral-600 dark:text-neutral-200"
+              >Human Resources</a>
+            </p>
+            <p>
+              <a className="text-neutral-600 dark:text-neutral-200"
+              >Construction</a>
+            </p>
+            <p>
+              <a className="text-neutral-600 dark:text-neutral-200"
+              >Power & Energy</a>
             </p>
           </div>
           {/* <!-- Partners section --> */}
@@ -133,7 +141,7 @@ const Footer = () => {
             </p>
             <p className="mb-4">
               <a className="text-neutral-600 dark:text-neutral-200"
-              >Uinon Assurance</a>
+              >Union Assurance</a>
             </p>
             <p className="mb-4">
               <a className="text-neutral-600 dark:text-neutral-200"
@@ -141,7 +149,7 @@ const Footer = () => {
             </p>
             <p>
               <a className="text-neutral-600 dark:text-neutral-200"
-              >Maliban</a>
+              >Meedro</a>
             </p>
           </div>
           {/* <!-- Contact section --> */}
@@ -161,7 +169,7 @@ const Footer = () => {
                 <path
                   d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
               </svg>
-              No.789, Panadura Road, Sri Lanka
+              676/1 Colombo - Galle Main Rd, Panadura
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <svg
@@ -188,9 +196,9 @@ const Footer = () => {
                   d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
                   clipRule="evenodd" />
               </svg>
-              071-3344371
+              077 479 5371
             </p>
-            <p className="flex items-center justify-center md:justify-start">
+            {/* <p className="flex items-center justify-center md:justify-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -202,13 +210,13 @@ const Footer = () => {
                   clipRule="evenodd" />
               </svg>
               011-2236189
-            </p>
+            </p> */}
           </div>
-        </div>
-      </div>
+        </div >
+      </div >
 
       {/* <!--Copyright section--> */}
-      <div className='bg-[#001a36]'>
+      <div div className='bg-[#001a36]' >
         <div className='container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row'>
           <p className='text-gray-300 text-sm text-center sm:text-left'>
             &copy; 2023 Job Finder Gamage Recruiters —
@@ -226,8 +234,8 @@ const Footer = () => {
             Designed by Almanac Globle Technology - Sri Lanka,Kegalle
           </span>
         </div>
-      </div>
-    </footer>
+      </div >
+    </footer >
   );
 };
 

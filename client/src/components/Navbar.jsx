@@ -116,12 +116,10 @@ const Navbar = () => {
     <>
       <div className='relative bg-[#f7fdfd] z-50'>
         <nav className='container mx-auto flex items-center justify-between p-5'>
-          <div>
-
-            <Link to='/' className='text-blue-900 font-bold text-xl'>
-              Gamage<span className='text-[#1677cccb]'>Recruiters</span>
-            </Link>
-          </div>
+          <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="/icon.jpg" className="h-10" alt="Flowbite Logo" />
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black-500">Gamage Recruiters</span>
+          </a>
 
           <ul className='hidden lg:flex gap-10 text-base'>
             <li>
@@ -138,13 +136,16 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to='testimonial'>Testimonials</Link>
+              <Link to='/Testimonials'>Testimonials</Link>
+            </li>
+            <li>
+              <Link to='/journey'>Our Journey</Link>
             </li>
             <li>
               <Link
                 to={
                   user?.accountType === "seeker"
-                    ? "/Upload-job" : "/contactUs"
+                    ? "/Upload-job" : "/contact-us"
                 }
               >
                 {user?.accountType === "seeker" ? "Upload Job" : "ContactUs"}
@@ -189,13 +190,14 @@ const Navbar = () => {
           <Link to='/find-jobs' onClick={handleCloseNavbar}>
             Careers
           </Link>
-          <Link
-            onClick={handleCloseNavbar}
-            to={
-              user?.accountType === "seeker" ? "applly-gistory" : "upload-job"
-            }
-          >
-            {user?.accountType === "seeker" ? "Applications" : "Contact Us"}
+          <Link to='/Testimonials' onClick={handleCloseNavbar}>
+            Testimonials
+          </Link>
+          <Link to='/journey' onClick={handleCloseNavbar}>
+            Out Journey
+          </Link>
+          <Link to='/contact-us' onClick={handleCloseNavbar}>
+            Contact US
           </Link>
           <Link to='/about-us' onClick={handleCloseNavbar}>
             About

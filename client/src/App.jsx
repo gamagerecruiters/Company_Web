@@ -13,6 +13,9 @@ import {
   UserProfile,
 } from "./pages";
 import Home from "./pages/Home/Homescreen/Home";
+import Testimonials from "./pages/Testimonials";
+import Contact from "./pages/contact";
+import Journey from "./pages/Journey";
 
 function Layout() {
   const { user } = useSelector((state) => state.user);
@@ -42,11 +45,14 @@ function App() {
           <Route path='/find-jobs' element={<FindJobs />} />
           <Route path='/companies' element={<Companies />} />
           <Route path={"/user-profile/:id?"} element={<UserProfile />} />
+          <Route path='/contact-us' element={<Contact />} />
+          <Route path='/journey' element={<Journey />} />
 
           <Route path={"/company-profile"} element={<CompanyProfile />} />
           <Route path={"/company-profile/:id"} element={<CompanyProfile />} />
           <Route path={"/upload-job"} element={<UploadJob />} />
           <Route path={"/job-detail/:id"} element={<JobDetail />} />
+          <Route path={"/Testimonials"} element={<Testimonials />} />
         </Route>
 
         <Route path='/about-us' element={<About />} />

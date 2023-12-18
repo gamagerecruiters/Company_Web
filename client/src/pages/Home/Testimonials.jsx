@@ -7,7 +7,7 @@ export default function Testimonial() {
     <section className="testimonial--section" id="testimonial">
       <div className="testimonial--container-box">
         <div className="testimonial--container">
-          <h2 className="industries--section--heading uppercase">Customer Feedback</h2>
+          <h2 className="testimonial--section--heading lg:text-5xl uppercase">Customer Feedback</h2>
         </div>
       </div>
       <div className="testimonial--section--container">
@@ -45,5 +45,6 @@ export default function Testimonial() {
         ))}
       </div>
     </section >
+
   );
 }

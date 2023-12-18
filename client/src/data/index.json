@@ -2,7 +2,7 @@
   "industries": [
     {
       "id": "1",
-      "title": "FSMG",
+      "title": "FMCG",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
     },
     {
@@ -17,17 +17,17 @@
     },
     {
       "id": "4",
-      "title": "Software/IT",
+      "title": "Information Technology",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
     },
     {
       "id": "5",
-      "title": "Sola",
+      "title": "Power & Energy",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
     },
     {
       "id": "6",
-      "title": "HR",
+      "title": "Human Resources",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "id": "8",
-      "title": "Shipping / Preight",
+      "title": "Shipping / Freight",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
     }
   ],
@@ -124,10 +124,6 @@
     {
       "id": "14",
       "src": "./img/14.jpeg"
-    },
-    {
-      "id": "15",
-      "src": "./img/15.jpeg"
     },
     {
       "id": "16",
