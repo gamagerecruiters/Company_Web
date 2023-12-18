@@ -7,9 +7,9 @@ export default function journey() {
                     <div className="flex h-full items-center justify-center">
                         <div className="px-6 text-center text-white md:px-12">
                             <h1 className="mt-6 mb-16 text-3xl font-bold tracking-tight md:text-4xl xl:text-6xl uppercase">
-                                Our Voyage (Journey) <br />
-                                <h2 className="mt-6 mb-16 text-2xl font-bold tracking-tight md:text-2xl xl:text-3xl">
-                                    <p></p>
+                                Our Journey <br />
+                                <h2 className="mt-10 mb-16 text-xl tracking-tight md:text-lg xl:text-xl">
+                                    <p>‘Passion’, ‘Commitment’, ‘Quality’ and ‘Personal Human Touch’</p>
                                 </h2>
                             </h1>
                         </div>
