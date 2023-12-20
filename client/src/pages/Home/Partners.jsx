@@ -16,12 +16,30 @@ import img14 from '/img/14.jpeg';
 import img15 from '/img/17.jpeg';
 import img16 from '/img/16.jpeg';
 import Marquee from 'react-fast-marquee';
+import { motion } from "framer-motion";
 
 export default function Partners() {
+
+    const container = {
+        hidden: {
+            opacity: 0,
+            scale: 0,
+        },
+        visible: {
+            opacity: 1,
+            scale: 1,
+            transition: {
+                delayChildren: 0.3,
+                staggerChildren: 0.3,
+            },
+        },
+    };
     return (
         <section className="mt-8 pb-8 bg-white">
-            <div className="max-w-6xl mx-auto">
-                <h2 className="text-5xl font-bold text-gray-800 mb-4 md:mb-6">OUR CLIENTS</h2>
+            <div className="max-w-6xl mx-auto text-center">
+                <motion.div variants={container} initial="hidden" whileInView="visible">
+                    <h2 className="text-5xl font-bold text-gray-800 mb-4 md:mb-6 ">OUR CLIENTS</h2>
+                </motion.div>
             </div>
             <div className="bg-white "> <Marquee direction="right" speed={50} delay={5}>
                 <div className="w-50 h-48 mx-4 my-1 flex items-center justify-center"> <img className="w-52 h-32 " src={img1} alt="" /> </div>

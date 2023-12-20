@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 import { CustomButton, JobCard, Loading } from "../components";
 import { apiRequest } from "../utils";
 
+
 const noLogo =
   "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/450px-No_image_available.svg.png";
 
@@ -64,6 +65,8 @@ const JobDetail = () => {
     id && getJobDetails();
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, [id]);
+
+
 
   return (
     <div className='container mx-auto'>
@@ -200,10 +203,12 @@ const JobDetail = () => {
                   containerStyles={`w-full flex items-center justify-center text-white bg-red-700 py-3 px-5 outline-none rounded-full text-base`}
                 />
               ) : (
-                <CustomButton
-                  title='Apply Now'
-                  containerStyles={`w-full flex items-center justify-center text-white bg-black py-3 px-5 outline-none rounded-full text-base`}
-                />
+                <a href="https://forms.gle/BEQjtFBMKNAwmkhS7" target="_blank" rel="noreferrer">
+                  <CustomButton
+                    title='Apply Now'
+                    containerStyles={`w-full flex items-center justify-center text-white bg-black py-3 px-5 outline-none rounded-full text-base`}
+                  />
+                </a>
               )}
             </div>
           </div>

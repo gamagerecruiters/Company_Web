@@ -8,6 +8,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { Logout } from "../redux/userSlice";
 import CustomButton from "./CustomButton";
+import { useNavigate } from "react-router-dom";
+
 
 
 function MenuList({ user, onClick }) {
@@ -111,14 +113,27 @@ const Navbar = () => {
   const handleCloseNavbar = () => {
     setIsOpen((prev) => !prev);
   };
+  const navigate = useNavigate();
+
+  const navigateToHome = () => {
+    // 👇️ navigate to /Home
+    navigate("/");
+  };
+
 
   return (
     <>
       <div className='relative bg-[#f7fdfd] z-50'>
-        <nav className='container mx-auto flex items-center justify-between p-5'>
-          <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="/icon.jpg" className="h-10" alt="Flowbite Logo" />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black-500">Gamage Recruiters</span>
+        <nav className='container mx-auto flex items-left justify-between p-5'>
+          <a className="flex items-left space-x-3 rtl:space-x-reverse gap-4">
+            <img src="/icon.jpg" onClick={navigateToHome} className="ml-5 h-10" alt="Flowbite Logo" />
+            <span onClick={navigateToHome} className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black-500">Gamage Recruiters</span>
+            <button
+              className="blocklg:hidden text-slate-900"
+              onClick={() => setIsOpen((prev) => !prev)}
+            >
+              {isOpen ? <AiOutlineClose size={26} /> : <HiMenuAlt3 size={26} />}
+            </button>
           </a>
 
           <ul className='hidden lg:flex gap-10 text-base'>
@@ -171,18 +186,18 @@ const Navbar = () => {
             )}
           </div>
 
-          <button
-            className='block lg:hidden text-slate-900'
+          {/* <button
+            className='ml-96 block lg:hidden text-slate-900'
             onClick={() => setIsOpen((prev) => !prev)}
           >
             {isOpen ? <AiOutlineClose size={26} /> : <HiMenuAlt3 size={26} />}
-          </button>
+          </button> */}
         </nav>
 
         {/* MOBILE MENU */}
         <div
           className={`${isOpen ? "absolute flex bg-[#f7fdfd] " : "hidden"
-            } container mx-auto lg:hidden flex-col pl-8 gap-3 py-5`}
+            } container mx-auto lg:hidden flex-col pl-8 gap-3 py-1`}
         >
           <Link to='/' onClick={handleCloseNavbar}>
             Home

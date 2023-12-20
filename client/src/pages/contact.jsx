@@ -3,992 +3,394 @@ import React from "react";
 const Contact = () => {
     return (
         <>
-            <section className="relative z-10 overflow-hidden bg-white py-20 dark:bg-dark lg:py-[120px]">
-                <div className="container">
-                    <div className="-mx-4 flex flex-wrap lg:justify-between">
-                        <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
-                            <div className="mb-12 max-w-[570px] lg:mb-0">
-                                <span className="mb-4 block text-base font-semibold text-primary">
-                                    Contact Us
-                                </span>
-                                <h2 className="mb-6 text-[32px] font-bold uppercase text-dark dark:text-white sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-                                    GET IN TOUCH WITH US
+            <div className="relative overflow-hidden bg-cover bg-no-repeat bg-[50%] h-[400px] bg-[url('https://tecdn.b-cdn.net/img/new/standard/city/078.jpg')]">
+                <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.75)]">
+                    <div className="flex h-full items-center justify-center">
+                        <div className="px-6 text-center text-white md:px-12">
+                            <h1 className="mt-6 mb-16 text-3xl font-bold tracking-tight md:text-4xl xl:text-6xl uppercase">
+                                Hello! <br />
+                                <h2 className="mt-10 mb-16 text-xl tracking-tight md:text-lg xl:text-xl">
+                                    <p>We love to hear from you</p>
                                 </h2>
-                                <p className="mb-9 text-base leading-relaxed text-body-color dark:text-dark-6">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do eius tempor incididunt ut labore e dolore magna aliqua. Ut
-                                    enim adiqua minim veniam quis nostrud exercitation ullamco
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section
+                className="mt-5 elementor-section elementor-top-section elementor-element elementor-element-d70a1c2 get-in-touch-class 
+          elementor-section-content-top elementor-section-boxed elementor-section-height-default 
+          elementor-section-height-default"
+                data-id="d70a1c2"
+                data-element_type="section"
+                data-settings='{"background_background":"classic"}'
+            >
+                <div className="flex flex-wrap">
+                    {/* Column 1 */}
+                    <div
+                        className="w-full sm:w-1/2 md:w-1/3 p-4 animate__fadeInRight bg-blue-700"
+                        data-id="33127e8"
+                        data-element_type="column"
+                        data-settings='{"animation":"fadeInRight","background_background":"classic"}'
+                    >
+                        <div className=" mb-4 ">
+                            <p className="flex items-center justify-center md:justify-start ml-5 text-xl text-white font-bold">
+                                <svg width="32px" height="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M12 21C15.5 17.4 19 14.1764 19 10.2C19 6.22355 15.866 3 12 3C8.13401 3 5 6.22355 5 10.2C5 14.1764 8.5 17.4 12 21Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g>
+                                </svg>
+                                Address</p>
+                        </div>
+                        <div className="mb-4">
+                            <div className="border-t border-gray-300">
+                                <p className="text-lg ml-5 mt-5 text-white flex items-center mb-2">
+                                    Gamage Recruiters Pvt Ltd, <br />
+                                    676/1 Colombo - <br />
+                                    Galle Main Rd, <br />
+                                    Panadura, <br />
+                                    Sri Lanka
                                 </p>
-                                <div className="mb-8 flex w-full max-w-[370px]">
-                                    <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
-                                        <svg
-                                            width="32"
-                                            height="32"
-                                            viewBox="0 0 32 32"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                d="M30.6 11.8002L17.7 3.5002C16.65 2.8502 15.3 2.8502 14.3 3.5002L1.39998 11.8002C0.899983 12.1502 0.749983 12.8502 1.04998 13.3502C1.39998 13.8502 2.09998 14.0002 2.59998 13.7002L3.44998 13.1502V25.8002C3.44998 27.5502 4.84998 28.9502 6.59998 28.9502H25.4C27.15 28.9502 28.55 27.5502 28.55 25.8002V13.1502L29.4 13.7002C29.6 13.8002 29.8 13.9002 30 13.9002C30.35 13.9002 30.75 13.7002 30.95 13.4002C31.3 12.8502 31.15 12.1502 30.6 11.8002ZM13.35 26.7502V18.5002C13.35 18.0002 13.75 17.6002 14.25 17.6002H17.75C18.25 17.6002 18.65 18.0002 18.65 18.5002V26.7502H13.35ZM26.3 25.8002C26.3 26.3002 25.9 26.7002 25.4 26.7002H20.9V18.5002C20.9 16.8002 19.5 15.4002 17.8 15.4002H14.3C12.6 15.4002 11.2 16.8002 11.2 18.5002V26.7502H6.69998C6.19998 26.7502 5.79998 26.3502 5.79998 25.8502V11.7002L15.5 5.4002C15.8 5.2002 16.2 5.2002 16.5 5.4002L26.3 11.7002V25.8002Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <div className="w-full">
-                                        <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
-                                            Our Location
-                                        </h4>
-                                        <p className="text-base text-body-color dark:text-dark-6">
-                                            99 S.t Jomblo Park Pekanbaru 28292. Indonesia
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div className="mb-8 flex w-full max-w-[370px]">
-                                    <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
-                                        <svg
-                                            width="32"
-                                            height="32"
-                                            viewBox="0 0 32 32"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <g clip-path="url(#clip0_941_17577)">
-                                                <path
-                                                    d="M24.3 31.1499C22.95 31.1499 21.4 30.7999 19.7 30.1499C16.3 28.7999 12.55 26.1999 9.19997 22.8499C5.84997 19.4999 3.24997 15.7499 1.89997 12.2999C0.39997 8.59994 0.54997 5.54994 2.29997 3.84994C2.34997 3.79994 2.44997 3.74994 2.49997 3.69994L6.69997 1.19994C7.74997 0.599942 9.09997 0.899942 9.79997 1.89994L12.75 6.29994C13.45 7.34994 13.15 8.74994 12.15 9.44994L10.35 10.6999C11.65 12.7999 15.35 17.9499 21.25 21.6499L22.35 20.0499C23.2 18.8499 24.55 18.4999 25.65 19.2499L30.05 22.1999C31.05 22.8999 31.35 24.2499 30.75 25.2999L28.25 29.4999C28.2 29.5999 28.15 29.6499 28.1 29.6999C27.2 30.6499 25.9 31.1499 24.3 31.1499ZM3.79997 5.54994C2.84997 6.59994 2.89997 8.74994 3.99997 11.4999C5.24997 14.6499 7.64997 18.0999 10.8 21.2499C13.9 24.3499 17.4 26.7499 20.5 27.9999C23.2 29.0999 25.35 29.1499 26.45 28.1999L28.85 24.0999C28.85 24.0499 28.85 24.0499 28.85 23.9999L24.45 21.0499C24.45 21.0499 24.35 21.0999 24.25 21.2499L23.15 22.8499C22.45 23.8499 21.1 24.1499 20.1 23.4999C13.8 19.5999 9.89997 14.1499 8.49997 11.9499C7.84997 10.8999 8.09997 9.54994 9.09997 8.84994L10.9 7.59994V7.54994L7.94997 3.14994C7.94997 3.09994 7.89997 3.09994 7.84997 3.14994L3.79997 5.54994Z"
-                                                    fill="currentColor"
-                                                />
-                                                <path
-                                                    d="M29.3 14.25C28.7 14.25 28.25 13.8 28.2 13.2C27.8 8.15003 23.65 4.10003 18.55 3.75003C17.95 3.70003 17.45 3.20003 17.5 2.55003C17.55 1.95003 18.05 1.45003 18.7 1.50003C24.9 1.90003 29.95 6.80003 30.45 13C30.5 13.6 30.05 14.15 29.4 14.2C29.4 14.25 29.35 14.25 29.3 14.25Z"
-                                                    fill="currentColor"
-                                                />
-                                                <path
-                                                    d="M24.35 14.7002C23.8 14.7002 23.3 14.3002 23.25 13.7002C22.95 11.0002 20.85 8.90018 18.15 8.55018C17.55 8.50018 17.1 7.90018 17.15 7.30018C17.2 6.70018 17.8 6.25018 18.4 6.30018C22.15 6.75018 25.05 9.65018 25.5 13.4002C25.55 14.0002 25.15 14.5502 24.5 14.6502C24.4 14.7002 24.35 14.7002 24.35 14.7002Z"
-                                                    fill="currentColor"
-                                                />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_941_17577">
-                                                    <rect width="32" height="32" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                    </div>
-                                    <div className="w-full">
-                                        <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
-                                            Phone Number
-                                        </h4>
-                                        <p className="text-base text-body-color dark:text-dark-6">
-                                            (+62)81 414 257 9980
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div className="mb-8 flex w-full max-w-[370px]">
-                                    <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
-                                        <svg
-                                            width="32"
-                                            height="32"
-                                            viewBox="0 0 32 32"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                d="M28 4.7998H3.99998C2.29998 4.7998 0.849976 6.1998 0.849976 7.9498V24.1498C0.849976 25.8498 2.24998 27.2998 3.99998 27.2998H28C29.7 27.2998 31.15 25.8998 31.15 24.1498V7.8998C31.15 6.1998 29.7 4.7998 28 4.7998ZM28 7.0498C28.05 7.0498 28.1 7.0498 28.15 7.0498L16 14.8498L3.84998 7.0498C3.89998 7.0498 3.94998 7.0498 3.99998 7.0498H28ZM28 24.9498H3.99998C3.49998 24.9498 3.09998 24.5498 3.09998 24.0498V9.2498L14.8 16.7498C15.15 16.9998 15.55 17.0998 15.95 17.0998C16.35 17.0998 16.75 16.9998 17.1 16.7498L28.8 9.2498V24.0998C28.9 24.5998 28.5 24.9498 28 24.9498Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                    </div>
-                                    <div className="w-full">
-                                        <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
-                                            Email Address
-                                        </h4>
-                                        <p className="text-base text-body-color dark:text-dark-6">
-                                            info@yourdomain.com
-                                        </p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
-                        <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-                            <div className="relative rounded-lg bg-white p-8 shadow-lg dark:bg-dark-2 sm:p-12">
-                                <form>
-                                    <ContactInputBox
-                                        type="text"
-                                        name="name"
-                                        placeholder="Your Name"
-                                    />
-                                    <ContactInputBox
-                                        type="text"
-                                        name="email"
-                                        placeholder="Your Email"
-                                    />
-                                    <ContactInputBox
-                                        type="text"
-                                        name="phone"
-                                        placeholder="Your Phone"
-                                    />
-                                    <ContactTextArea
-                                        row="6"
-                                        placeholder="Your Message"
-                                        name="details"
-                                        defaultValue=""
-                                    />
-                                    <div>
+                    </div>
+
+                    {/* Column 2 */}
+
+                    <div
+                        className="w-full sm:w-1/2 md:w-1/3 p-4 animate__fadeInRight bg-white"
+                        data-id="33127e8"
+                        data-element_type="column"
+                        data-settings='{"animation":"fadeInRight","background_background":"classic"}'
+                    >
+                        <div className=" mb-4 ">
+                            <p className="gap-1 flex items-center justify-center md:justify-start ml-5 text-xl text-black font-bold">
+                                <svg width="32px" height="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M15.4697 3.46967C15.7626 3.17678 16.2374 3.17678 16.5303 3.46967L18 4.93935L19.4697 3.46969C19.7626 3.17679 20.2374 3.17679 20.5303 3.46969C20.8232 3.76258 20.8232 4.23745 20.5303 4.53035L19.0607 6.00001L20.5303 7.46965C20.8232 7.76255 20.8232 8.23742 20.5303 8.53031C20.2374 8.82321 19.7625 8.82321 19.4697 8.53031L18 7.06067L16.5303 8.53033C16.2375 8.82322 15.7626 8.82322 15.4697 8.53033C15.1768 8.23744 15.1768 7.76256 15.4697 7.46967L16.9393 6.00001L15.4697 4.53033C15.1768 4.23744 15.1768 3.76256 15.4697 3.46967Z" fill="#000000"></path> <path d="M10.0376 5.31617L10.6866 6.4791C11.2723 7.52858 11.0372 8.90532 10.1147 9.8278C10.1147 9.8278 10.1147 9.8278 10.1147 9.8278C10.1146 9.82792 8.99588 10.9468 11.0245 12.9755C13.0525 15.0035 14.1714 13.8861 14.1722 13.8853C14.1722 13.8853 14.1722 13.8853 14.1722 13.8853C15.0947 12.9628 16.4714 12.7277 17.5209 13.3134L18.6838 13.9624C20.2686 14.8468 20.4557 17.0692 19.0628 18.4622C18.2258 19.2992 17.2004 19.9505 16.0669 19.9934C14.1588 20.0658 10.9183 19.5829 7.6677 16.3323C4.41713 13.0817 3.93421 9.84122 4.00655 7.93309C4.04952 6.7996 4.7008 5.77423 5.53781 4.93723C6.93076 3.54428 9.15317 3.73144 10.0376 5.31617Z" fill="#000000"></path> </g></svg>
+                                Phone</p>
+                        </div>
+                        <div className="mb-4">
+                            <div className="border-t border-gray-700"></div>
+                        </div>
+                        <ul className="list-none">
+                            <li className="flex items-center mb-2">
+                                <span className="mr-2">
+                                    <i aria-hidden="true" className="fas fa-phone"></i>
+                                </span>
+                                <span>
+                                    <a
+                                        href="tel:077 479 5371"
+                                        className="text-blue-700 hover:text-blue-400 text-lg"
+                                    >
+                                        +9477 479 5371
+                                    </a>
+                                </span>
+                            </li>
+
+
+                        </ul>
+                        <div className=" mb-4 ">
+                            <p className="gap-1 flex items-center justify-center md:justify-start ml-5 text-xl text-black font-bold">
+                                <svg height="32px" width="32px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css">  </style> <g> <path class="st0" d="M440.917,67.925H71.083C31.827,67.925,0,99.752,0,139.008v233.984c0,39.256,31.827,71.083,71.083,71.083 h369.834c39.255,0,71.083-31.827,71.083-71.083V139.008C512,99.752,480.172,67.925,440.917,67.925z M178.166,321.72l-99.54,84.92 c-7.021,5.992-17.576,5.159-23.567-1.869c-5.992-7.021-5.159-17.576,1.87-23.567l99.54-84.92c7.02-5.992,17.574-5.159,23.566,1.87 C186.027,305.174,185.194,315.729,178.166,321.72z M256,289.436c-13.314-0.033-26.22-4.457-36.31-13.183l0.008,0.008l-0.032-0.024 c0.008,0.008,0.017,0.008,0.024,0.016L66.962,143.694c-6.98-6.058-7.723-16.612-1.674-23.583c6.057-6.98,16.612-7.723,23.582-1.674 l152.771,132.592c3.265,2.906,8.645,5.004,14.359,4.971c5.706,0.017,10.995-2.024,14.44-5.028l0.074-0.065l152.615-132.469 c6.971-6.049,17.526-5.306,23.583,1.674c6.048,6.97,5.306,17.525-1.674,23.583l-152.77,132.599 C282.211,284.929,269.322,289.419,256,289.436z M456.948,404.771c-5.992,7.028-16.547,7.861-23.566,1.869l-99.54-84.92 c-7.028-5.992-7.861-16.546-1.869-23.566c5.991-7.029,16.546-7.861,23.566-1.87l99.54,84.92 C462.107,387.195,462.94,397.75,456.948,404.771z"></path> </g> </g></svg>
+                                Email</p>
+                        </div>
+                        <div className="mb-4">
+                            <div className="border-t border-gray-400"></div>
+                        </div>
+                        <ul className="list-none">
+                            <li className="flex items-center mb-2">
+                                <span className="mr-2">
+                                    <i aria-hidden="true" className="far fa-envelope"></i>
+                                </span>
+                                <span>
+                                    <a
+                                        href="http://localhost:5173/gamagerecruiters@gmail.com "
+                                        className="text-lg text-blue-700 hover:text-blue-400"
+                                    >
+                                        gamagerecruiters@gmail.com
+                                    </a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {/* Column 3 */}
+                    <div
+                        className="w-full sm:w-1/2 md:w-1/3 p-4 animate__fadeInRight bg-blue-700"
+                        data-id="33127e8"
+                        data-element_type="column"
+                        data-settings='{"animation":"fadeInRight","background_background":"classic"}'
+                    >
+                        <div className="ml-5 mb-4">
+                            <p className="gap-1 flex items-center justify-center md:justify-start ml-5 text-xl text-white font-bold">
+                                <svg width="32px" height="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 2H6C4.34 2 3 3.33 3 4.97V15.88C3 17.52 4.34 18.85 6 18.85H6.76C7.56 18.85 8.32 19.16 8.88 19.72L10.59 21.41C11.37 22.18 12.64 22.18 13.42 21.41L15.13 19.72C15.69 19.16 16.46 18.85 17.25 18.85H18C19.66 18.85 21 17.52 21 15.88V4.97C21 3.33 19.66 2 18 2ZM12.28 14.96C12.13 15.01 11.88 15.01 11.72 14.96C10.42 14.51 7.5 12.66 7.5 9.51C7.51 8.12 8.62 7 10 7C10.82 7 11.54 7.39 12 8C12.46 7.39 13.18 7 14 7C15.38 7 16.5 8.12 16.5 9.51C16.49 12.66 13.58 14.51 12.28 14.96Z" fill="#ffffff"></path> </g></svg>Follow Us</p>
+                        </div>
+                        <div className="mb-4">
+                            <div className="border-t border-gray-300"></div>
+                        </div>
+                        <ul className="ml-5 text-white list-none">
+                            <li className="flex items-center mb-2 ">
+                                <span className="mr-2 ">
+                                    <i aria-hidden="true" className="fab fa-facebook-f"></i>
+                                </span>
+                                <span>
+                                    <a
+                                        href="https://www.facebook.com/profile.php?id=61552739918345&mibextid=eHce3h"
+                                        className="text-white hover:text-gray-400 text-lg"
+                                    >
+                                        Facebook
+                                    </a>
+                                </span>
+                            </li>
+                            <li className="flex items-center mb-2 ">
+                                <span className="mr-2">
+                                    <i aria-hidden="true" className="fab fa-instagram"></i>
+                                </span>
+                                <span>
+                                    <a
+                                        href="https://instagram.com/officialgamagerecruiters?igshid=NzZlODBkYWE4Ng=="
+                                        className="text-white hover:text-gray-400 text-lg"
+                                    >
+                                        Instagram
+                                    </a>
+                                </span>
+                            </li>
+                            <li className="flex items-center mb-2 ">
+                                <span className="mr-2">
+                                    <i aria-hidden="true" className="fab fa-tiktok"></i>
+                                </span>
+                                <span>
+                                    <a
+                                        href="https://www.tiktok.com/@gamagerecruitersofficial?_t=8hwu0zBntVS&_r=1"
+                                        className="text-white hover:text-gray-400 text-lg"
+                                    >
+                                        TikTok
+                                    </a>
+                                </span>
+                            </li>
+                            <li className="flex items-center mb-2 ">
+                                <span className="mr-2">
+                                    <i aria-hidden="true" className="fab fa-linkedin-in"></i>
+                                </span>
+                                <span>
+                                    <a
+                                        href="https://www.linkedin.com/company/gamage-recruiters"
+                                        className="text-white hover:text-gray-400 text-lg"
+                                    >
+                                        LinkedIn
+                                    </a>
+                                </span>
+                            </li>
+                            <li className="flex items-center mb-2">
+                                <span className="mr-2">
+                                    <i aria-hidden="true" className="fab fa-whatsapp "></i>
+                                </span>
+                                <span>
+                                    <a
+                                        href={`https://wa.me/${+94774795371}`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-white text-lg"
+                                    >
+                                        Whatsapp
+                                    </a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section className="mt-10 elementor-section elementor-top-section elementor-element elementor-element-662eb118 get-in-touch-class elementor-section-boxed elementor-section-height-default bg-classic mb-6">
+                <div className="container mx-auto max-w-2xl ">
+                    <div className="flex flex-col items-center animate__animated animate__fadeInLeft">
+                        {/* Heading */}
+                        <div className="mb-4 mt-6">
+                            <h3 className="text-3xl font-bold">
+                                Have Questions? Reach Out To Us
+                            </h3>
+                        </div>
+
+                        {/* Contact Form */}
+                        <div className="w-full ">
+                            {/* WPForms Container */}
+                            <div className="bg-white p-6 rounded shadow">
+                                {/* WPForms Form */}
+                                <form
+                                    className="wpforms-validate wpforms-form wpforms-ajax-form"
+                                    data-formid="846"
+                                    method="post"
+                                    encType="multipart/form-data"
+                                    action="/ContactUS/"
+                                    data-token="03d900b32605966bc736e2a96ee8d896"
+                                    noValidate
+                                >
+                                    {/* WPForms Head Container */}
+                                    <div className="mb-4 ">
+                                        <p className="text-gray-600 text-sm">
+                                            Pleasure was ours to have you as our guest. We are open to
+                                            understanding how we could be of assistance in fulfilling
+                                            your personal and business requirements.
+                                        </p>
+                                    </div>
+
+                                    {/* WPForms Error NoScript */}
+                                    <noscript className="text-red-500">
+                                        Please enable JavaScript in your browser to complete this
+                                        form.
+                                    </noscript>
+
+                                    {/* WPForms Field Container */}
+                                    <div className="space-y-4">
+                                        {/* Full Name */}
+                                        <div className="w-full">
+                                            <input
+                                                type="text"
+                                                id="full-name"
+                                                className="w-full px-4 py-2 border border-gray-500 rounded-3xl bg-white"
+                                                name="wpforms[fields][0]"
+                                                placeholder="Full Name*"
+                                                required
+                                            />
+                                        </div>
+
+                                        {/* Company and Job Title */}
+                                        <div className="flex space-x-4">
+                                            <div className="w-1/2">
+                                                <input
+                                                    type="text"
+                                                    id="company"
+                                                    className="w-full px-4 py-2 border border-gray-500 rounded-3xl bg-white"
+                                                    name="wpforms[fields][9]"
+                                                    placeholder="Company*"
+                                                    required
+                                                />
+                                            </div>
+                                            <div className="w-1/2">
+                                                <input
+                                                    type="text"
+                                                    id="job-title"
+                                                    className="w-full px-4 py-2 border border-gray-500 rounded-3xl bg-white"
+                                                    name="wpforms[fields][10]"
+                                                    placeholder="Job Title*"
+                                                    required
+                                                />
+                                            </div>
+                                        </div>
+
+                                        {/* Email, Phone, Country, City */}
+                                        <div className="flex space-x-4">
+                                            {/* Email */}
+                                            <div className="w-1/2">
+                                                <input
+                                                    type="email"
+                                                    id="email"
+                                                    className="w-full px-4 py-2 border border-gray-500 rounded-3xl bg-white"
+                                                    name="wpforms[fields][1]"
+                                                    placeholder="Email*"
+                                                    required
+                                                />
+                                            </div>
+                                            {/* Phone */}
+                                            <div className="w-1/2">
+                                                <input
+                                                    type="text"
+                                                    id="phone"
+                                                    className="w-full px-4 py-2 border border-gray-500 rounded-3xl bg-white"
+                                                    name="wpforms[fields][8]"
+                                                    placeholder="Phone*"
+                                                    required
+                                                />
+                                            </div>
+                                        </div>
+
+                                        {/* Country and City */}
+                                        <div className="flex space-x-4">
+                                            <div className="w-1/2">
+                                                <input
+                                                    type="text"
+                                                    id="country"
+                                                    className="w-full px-4 py-2 border border-gray-500 rounded-3xl bg-white"
+                                                    name="wpforms[fields][6]"
+                                                    placeholder="Country*"
+                                                    required
+                                                />
+                                            </div>
+                                            <div className="w-1/2">
+                                                <input
+                                                    type="text"
+                                                    id="city"
+                                                    className="w-full px-4 py-2 border border-gray-500 rounded-3xl bg-white"
+                                                    name="wpforms[fields][11]"
+                                                    placeholder="City*"
+                                                    required
+                                                />
+                                            </div>
+                                        </div>
+
+                                        {/* How did you hear about us? */}
+                                        <div className="w-full">
+                                            <select
+                                                id="how-heard"
+                                                className="w-full px-4 py-2 border border-gray-500 rounded-3xl"
+                                                name="wpforms[fields][12]"
+                                                required
+                                            >
+                                                <option
+                                                    value=""
+                                                    className="placeholder"
+                                                    disabled
+                                                    selected
+                                                >
+                                                    How did you hear about us?
+                                                </option>
+                                                <option value="Google">Google</option>
+                                                <option value="LinkedIn">LinkedIn</option>
+                                                <option value="Facebook">Facebook</option>
+                                                <option value="Yelp">Yelp</option>
+                                                <option value="WSJ">WSJ</option>
+                                                <option value="CEW">CEW</option>
+                                                <option value="MTM">MTM</option>
+                                                <option value="Referral ">Referral </option>
+                                                <option value="Other">Other</option>
+                                            </select>
+                                        </div>
+
+                                        {/* Talent Challenge */}
+                                        <div className="w-full">
+                                            <textarea
+                                                id="talent-challenge"
+                                                className="w-full px-4 py-2 border border-gray-500 rounded-2xl bg-white"
+                                                name="wpforms[fields][7]"
+                                                placeholder="What is your organization's talent challenge?"
+                                            ></textarea>
+                                        </div>
+                                    </div>
+
+                                    {/* WPForms Submit Container */}
+                                    <div className="mt-6 flex items-center justify-center">
+                                        <input type="hidden" name="wpforms[id]" value="846" />
+                                        <input type="hidden" name="wpforms[author]" value="1" />
+                                        <input type="hidden" name="wpforms[post_id]" value="3650" />
                                         <button
                                             type="submit"
-                                            className="w-full rounded border border-primary bg-primary p-3 text-white transition hover:bg-opacity-90"
+                                            class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
                                         >
-                                            Send Message
+                                            Submit
                                         </button>
                                     </div>
                                 </form>
-                                <div>
-                                    <span className="absolute -right-9 -top-10 z-[-1]">
-                                        <svg
-                                            width={100}
-                                            height={100}
-                                            viewBox="0 0 100 100"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fillRule="evenodd"
-                                                clipRule="evenodd"
-                                                d="M0 100C0 44.7715 0 0 0 0C55.2285 0 100 44.7715 100 100C100 100 100 100 0 100Z"
-                                                fill="#3056D3"
-                                            />
-                                        </svg>
-                                    </span>
-                                    <span className="absolute -right-10 top-[90px] z-[-1]">
-                                        <svg
-                                            width={34}
-                                            height={134}
-                                            viewBox="0 0 34 134"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <circle
-                                                cx="31.9993"
-                                                cy={132}
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 132)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy="117.333"
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 117.333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy="102.667"
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 102.667)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy={88}
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 88)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy="73.3333"
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 73.3333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy={45}
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 45)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy={16}
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 16)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy={59}
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 59)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy="30.6666"
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 30.6666)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy="1.66665"
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 1.66665)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy={132}
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 132)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy="117.333"
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 117.333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy="102.667"
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 102.667)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy={88}
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 88)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy="73.3333"
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 73.3333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy={45}
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 45)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy={16}
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 16)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy={59}
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 59)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy="30.6666"
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 30.6666)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy="1.66665"
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 1.66665)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy={132}
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 132)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy="117.333"
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 117.333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy="102.667"
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 102.667)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy={88}
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 88)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy="73.3333"
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 73.3333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy={45}
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 45)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy={16}
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 16)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy={59}
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 59)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy="30.6666"
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 30.6666)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy="1.66665"
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 1.66665)"
-                                                fill="#13C296"
-                                            />
-                                        </svg>
-                                    </span>
-                                    <span className="absolute -bottom-7 -left-7 z-[-1]">
-                                        <svg
-                                            width={107}
-                                            height={134}
-                                            viewBox="0 0 107 134"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <circle
-                                                cx="104.999"
-                                                cy={132}
-                                                r="1.66667"
-                                                transform="rotate(180 104.999 132)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="104.999"
-                                                cy="117.333"
-                                                r="1.66667"
-                                                transform="rotate(180 104.999 117.333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="104.999"
-                                                cy="102.667"
-                                                r="1.66667"
-                                                transform="rotate(180 104.999 102.667)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="104.999"
-                                                cy={88}
-                                                r="1.66667"
-                                                transform="rotate(180 104.999 88)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="104.999"
-                                                cy="73.3333"
-                                                r="1.66667"
-                                                transform="rotate(180 104.999 73.3333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="104.999"
-                                                cy={45}
-                                                r="1.66667"
-                                                transform="rotate(180 104.999 45)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="104.999"
-                                                cy={16}
-                                                r="1.66667"
-                                                transform="rotate(180 104.999 16)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="104.999"
-                                                cy={59}
-                                                r="1.66667"
-                                                transform="rotate(180 104.999 59)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="104.999"
-                                                cy="30.6666"
-                                                r="1.66667"
-                                                transform="rotate(180 104.999 30.6666)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="104.999"
-                                                cy="1.66665"
-                                                r="1.66667"
-                                                transform="rotate(180 104.999 1.66665)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="90.3333"
-                                                cy={132}
-                                                r="1.66667"
-                                                transform="rotate(180 90.3333 132)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="90.3333"
-                                                cy="117.333"
-                                                r="1.66667"
-                                                transform="rotate(180 90.3333 117.333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="90.3333"
-                                                cy="102.667"
-                                                r="1.66667"
-                                                transform="rotate(180 90.3333 102.667)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="90.3333"
-                                                cy={88}
-                                                r="1.66667"
-                                                transform="rotate(180 90.3333 88)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="90.3333"
-                                                cy="73.3333"
-                                                r="1.66667"
-                                                transform="rotate(180 90.3333 73.3333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="90.3333"
-                                                cy={45}
-                                                r="1.66667"
-                                                transform="rotate(180 90.3333 45)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="90.3333"
-                                                cy={16}
-                                                r="1.66667"
-                                                transform="rotate(180 90.3333 16)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="90.3333"
-                                                cy={59}
-                                                r="1.66667"
-                                                transform="rotate(180 90.3333 59)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="90.3333"
-                                                cy="30.6666"
-                                                r="1.66667"
-                                                transform="rotate(180 90.3333 30.6666)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="90.3333"
-                                                cy="1.66665"
-                                                r="1.66667"
-                                                transform="rotate(180 90.3333 1.66665)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="75.6654"
-                                                cy={132}
-                                                r="1.66667"
-                                                transform="rotate(180 75.6654 132)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy={132}
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 132)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="75.6654"
-                                                cy="117.333"
-                                                r="1.66667"
-                                                transform="rotate(180 75.6654 117.333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy="117.333"
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 117.333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="75.6654"
-                                                cy="102.667"
-                                                r="1.66667"
-                                                transform="rotate(180 75.6654 102.667)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy="102.667"
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 102.667)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="75.6654"
-                                                cy={88}
-                                                r="1.66667"
-                                                transform="rotate(180 75.6654 88)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy={88}
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 88)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="75.6654"
-                                                cy="73.3333"
-                                                r="1.66667"
-                                                transform="rotate(180 75.6654 73.3333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy="73.3333"
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 73.3333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="75.6654"
-                                                cy={45}
-                                                r="1.66667"
-                                                transform="rotate(180 75.6654 45)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy={45}
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 45)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="75.6654"
-                                                cy={16}
-                                                r="1.66667"
-                                                transform="rotate(180 75.6654 16)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy={16}
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 16)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="75.6654"
-                                                cy={59}
-                                                r="1.66667"
-                                                transform="rotate(180 75.6654 59)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy={59}
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 59)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="75.6654"
-                                                cy="30.6666"
-                                                r="1.66667"
-                                                transform="rotate(180 75.6654 30.6666)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy="30.6666"
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 30.6666)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="75.6654"
-                                                cy="1.66665"
-                                                r="1.66667"
-                                                transform="rotate(180 75.6654 1.66665)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="31.9993"
-                                                cy="1.66665"
-                                                r="1.66667"
-                                                transform="rotate(180 31.9993 1.66665)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="60.9993"
-                                                cy={132}
-                                                r="1.66667"
-                                                transform="rotate(180 60.9993 132)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy={132}
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 132)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="60.9993"
-                                                cy="117.333"
-                                                r="1.66667"
-                                                transform="rotate(180 60.9993 117.333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy="117.333"
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 117.333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="60.9993"
-                                                cy="102.667"
-                                                r="1.66667"
-                                                transform="rotate(180 60.9993 102.667)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy="102.667"
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 102.667)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="60.9993"
-                                                cy={88}
-                                                r="1.66667"
-                                                transform="rotate(180 60.9993 88)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy={88}
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 88)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="60.9993"
-                                                cy="73.3333"
-                                                r="1.66667"
-                                                transform="rotate(180 60.9993 73.3333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy="73.3333"
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 73.3333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="60.9993"
-                                                cy={45}
-                                                r="1.66667"
-                                                transform="rotate(180 60.9993 45)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy={45}
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 45)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="60.9993"
-                                                cy={16}
-                                                r="1.66667"
-                                                transform="rotate(180 60.9993 16)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy={16}
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 16)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="60.9993"
-                                                cy={59}
-                                                r="1.66667"
-                                                transform="rotate(180 60.9993 59)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy={59}
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 59)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="60.9993"
-                                                cy="30.6666"
-                                                r="1.66667"
-                                                transform="rotate(180 60.9993 30.6666)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy="30.6666"
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 30.6666)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="60.9993"
-                                                cy="1.66665"
-                                                r="1.66667"
-                                                transform="rotate(180 60.9993 1.66665)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="17.3333"
-                                                cy="1.66665"
-                                                r="1.66667"
-                                                transform="rotate(180 17.3333 1.66665)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="46.3333"
-                                                cy={132}
-                                                r="1.66667"
-                                                transform="rotate(180 46.3333 132)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy={132}
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 132)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="46.3333"
-                                                cy="117.333"
-                                                r="1.66667"
-                                                transform="rotate(180 46.3333 117.333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy="117.333"
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 117.333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="46.3333"
-                                                cy="102.667"
-                                                r="1.66667"
-                                                transform="rotate(180 46.3333 102.667)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy="102.667"
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 102.667)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="46.3333"
-                                                cy={88}
-                                                r="1.66667"
-                                                transform="rotate(180 46.3333 88)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy={88}
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 88)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="46.3333"
-                                                cy="73.3333"
-                                                r="1.66667"
-                                                transform="rotate(180 46.3333 73.3333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy="73.3333"
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 73.3333)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="46.3333"
-                                                cy={45}
-                                                r="1.66667"
-                                                transform="rotate(180 46.3333 45)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy={45}
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 45)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="46.3333"
-                                                cy={16}
-                                                r="1.66667"
-                                                transform="rotate(180 46.3333 16)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy={16}
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 16)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="46.3333"
-                                                cy={59}
-                                                r="1.66667"
-                                                transform="rotate(180 46.3333 59)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy={59}
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 59)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="46.3333"
-                                                cy="30.6666"
-                                                r="1.66667"
-                                                transform="rotate(180 46.3333 30.6666)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy="30.6666"
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 30.6666)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="46.3333"
-                                                cy="1.66665"
-                                                r="1.66667"
-                                                transform="rotate(180 46.3333 1.66665)"
-                                                fill="#13C296"
-                                            />
-                                            <circle
-                                                cx="2.66536"
-                                                cy="1.66665"
-                                                r="1.66667"
-                                                transform="rotate(180 2.66536 1.66665)"
-                                                fill="#13C296"
-                                            />
-                                        </svg>
-                                    </span>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </section>
+            <section className="text-gray-600 body-font relative">
+                <div className="absolute inset-0 bg-gray-300">
+                </div>
+
             </section>
         </>
     );
 };
 
 export default Contact;
-
-const ContactTextArea = ({ row, placeholder, name, defaultValue }) => {
-    return (
-        <>
-            <div className="mb-6">
-                <textarea
-                    rows={row}
-                    placeholder={placeholder}
-                    name={name}
-                    className="w-full resize-none rounded border border-stroke px-[14px] py-3 text-base text-body-color outline-none focus:border-primary dark:border-dark-3 dark:bg-dark dark:text-dark-6"
-                    defaultValue={defaultValue}
-                />
-            </div>
-        </>
-    );
-};
-
-const ContactInputBox = ({ type, placeholder, name }) => {
-    return (
-        <>
-            <div className="mb-6">
-                <input
-                    type={type}
-                    placeholder={placeholder}
-                    name={name}
-                    className="w-full rounded border border-stroke px-[14px] py-3 text-base text-body-color outline-none focus:border-primary dark:border-dark-3 dark:bg-dark dark:text-dark-6"
-                />
-            </div>
-        </>
-    );
-};

@@ -1,6 +1,22 @@
 import "./styles/App.css";
+import { motion } from "framer-motion";
 
 export default function AboutUs() {
+
+    const container = {
+        hidden: {
+            opacity: 0,
+            scale: 0,
+        },
+        visible: {
+            opacity: 1,
+            scale: 1,
+            transition: {
+                delayChildren: 0.100,
+                staggerChildren: 0.100,
+            },
+        },
+    };
     return (
         // <section id="AboutUs" className="about--section">
         //     <div className="about--section--img">
@@ -24,28 +40,43 @@ export default function AboutUs() {
         //     </div>
         // </section>
 
-        <section className="bg-gray-100">
+        <section className="mt-5 bg-gray-100">
             <div className="container mx-auto px-4 py-16">
                 <div className="flex flex-wrap">
+
                     <div className="w-full md:w-6/12 mb-8 md:mb-0">
-                        <h1 className="text-5xl font-bold text-center md:text-left">ABOUT US</h1>
-                        <p className="text-xl mt-10 text-center md:text-left">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-                            recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-                            tempora numquam sint odit optio.
-                        </p>
-                        <p className="text-xl mt-6 text-center md:text-left">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-                            recusandae?
-                        </p>
+                        <motion.div variants={container} initial="hidden" whileInView="visible">
+                            <h1 className="text-5xl font-bold text-center md:text-left">ABOUT US</h1>
+                        </motion.div>
+                        <motion.div variants={container} initial="hidden" whileInView="visible">
+                            <p className="text-xl mt-10 text-center md:text-left">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                                officiis sit debitis omnis harum sed veniam quasi dicta accusamus
+                                recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
+                                tempora numquam sint odit optio.
+                            </p>
+                        </motion.div>
+                        <motion.div variants={container} initial="hidden" whileInView="visible">
+                            <p className="text-xl mt-6 text-center md:text-left">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                                officiis sit debitis omnis harum sed veniam quasi dicta accusamus
+                                recusandae?
+                            </p>
+                        </motion.div>
                     </div>
+
                     <div className="w-full md:w-6/12">
-                        <img className="w-4/6 h-6/6 border-10 border-transparent rounded-full mx-auto" src="./icon.jpg" alt="About Us" />
+                        <motion.div
+                            initial={{ opacity: 0, x: -50 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 0.5 }}>
+                            <img className="w-4/6 h-6/6 border-10 border-transparent rounded-full mx-auto" src="./icon.jpg" alt="About Us" />
+                        </motion.div>
                     </div>
+
+
                 </div>
             </div>
-        </section>
+        </section >
     );
 }

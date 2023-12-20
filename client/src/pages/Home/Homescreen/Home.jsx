@@ -4,7 +4,7 @@ import AboutUs from "../AboutUs";
 import Testimonial from "../Testimonials";
 import Partners from "../Partners";
 import ContactUs from "../ContactUs";
-// import OurTeam from "../OurTeam";
+
 
 
 
@@ -17,7 +17,7 @@ export default function Home() {
             <AboutUs />
             <Testimonial />
             <Partners />
-            {/* <OurTeam /> */}
+
             <ContactUs />
         </>
     );
