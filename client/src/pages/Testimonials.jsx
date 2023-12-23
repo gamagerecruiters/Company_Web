@@ -83,7 +83,7 @@ export default function Testimonial() {
                         </div>
                     </div>
 
-                    <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-100">
+                    <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white">
                         <div className="flex flex-wrap items-center">
 
                             <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12 xl:w-10/12">
@@ -151,13 +151,13 @@ export default function Testimonial() {
                     <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white">
                         <div className="flex flex-wrap items-center">
                             <div className="block w-full shrink-0 grow-0 basis-auto lg:flex lg:w-4/12 xl:w-2/12">
-                                <img src="/img/Transocean.jpg" alt="Trendy Pants and Shoes"
+                                <img src="/img/Clients/Transocean.jpg" alt="Trendy Pants and Shoes"
                                     className="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
                             </div>
                             <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12 xl:w-10/12">
                                 <div className="px-6 py-12 md:px-12">
                                     <h2 className="mb-2 text-3xl font-bold text-primary dark:text-primary-400">
-                                        R.Hemanthika
+                                        R.Jayasinghe
                                     </h2>
                                     <p className="mb-4 font-semibold">Director - Transocean DUTY FREE (PVT) LTD
                                     </p>
@@ -218,7 +218,7 @@ export default function Testimonial() {
                         </div>
                     </div>
 
-                    <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-100">
+                    <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white">
                         <div className="flex flex-wrap items-center">
 
                             <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12 xl:w-10/12">
@@ -279,7 +279,7 @@ export default function Testimonial() {
                                 </div>
                             </div>
                             <div className="block w-full shrink-0 grow-0 basis-auto lg:flex lg:w-4/12 xl:w-2/12">
-                                <img src="https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/027.jpg" alt="Trendy Pants and Shoes"
+                                <img src="/img/Clients/18.jpeg" alt="Trendy Pants and Shoes"
                                     className="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
                             </div>
                         </div>

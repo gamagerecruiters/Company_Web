@@ -1,4 +1,3 @@
-
 :root {
   font-family: Inter, Arial, sans-serif;
   line-height: 1.5;
@@ -10,11 +9,11 @@ a {
   text-decoration: inherit;
 }
 
-
 /* #18171D #212121 */
-li:hover{
-font-weight: 700;
-color: #1676CC;
+
+li:hover {
+  font-weight: 700;
+  color: #1676cc;
 }
 
 body {
@@ -45,6 +44,7 @@ body {
 }
 
 /* Removing the default appearance */
+
 .thumb,
 .thumb::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -68,6 +68,7 @@ body {
 }
 
 /* For Chrome browsers */
+
 .thumb::-webkit-slider-thumb {
   background-color: #220f77;
   border: none;
@@ -82,6 +83,7 @@ body {
 }
 
 /* For Firefox browsers */
+
 .thumb::-moz-range-thumb {
   background-color: #f1f5f7;
   border: none;
@@ -94,8 +96,6 @@ body {
   pointer-events: all;
   position: relative;
 }
-
-
 
 .dots-container {
   display: flex;
@@ -137,13 +137,11 @@ body {
     background-color: #b3d4fc;
     box-shadow: 0 0 0 0 rgba(178, 212, 252, 0.7);
   }
-
   50% {
     transform: scale(1.2);
     background-color: #4b79e4;
     box-shadow: 0 0 0 10px rgba(178, 212, 252, 0);
   }
-
   100% {
     transform: scale(0.8);
     background-color: #2584f8;
@@ -154,3 +152,5 @@ body {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @import "bootstrap/dist/css/bootstrap.min.css"; */
