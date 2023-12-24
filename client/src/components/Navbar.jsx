@@ -129,7 +129,7 @@ const Navbar = () => {
             <img src="/icon.jpg" onClick={navigateToHome} className="ml-5 h-10" alt="Flowbite Logo" />
             <span onClick={navigateToHome} className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black-500">Gamage Recruiters</span>
             <button
-              className="blocklg:hidden text-slate-900"
+              className="blocklg:hidden lg:text-slate-100 text-slate-900"
               onClick={() => setIsOpen((prev) => !prev)}
             >
               {isOpen ? <AiOutlineClose size={26} /> : <HiMenuAlt3 size={26} />}

@@ -18,14 +18,14 @@ export default function Industries() {
     };
 
     return (
-        <section className="industries--section" id="Industries">
+        <section className="lg:ml-20 industries--section" id="Industries">
             <div className="industries--container">
                 <motion.div variants={container} initial="hidden" whileInView="visible">
                     <h2 className="industries--section--heading font-bold">INDUSTRIES</h2>
                 </motion.div>
             </div>
 
-            <div className="grid grid-cols-1 gap-5 items-center md:grid-cols-2 lg:grid-cols-4 ">
+            <div className=" grid grid-cols-1 gap-6 items-center md:grid-cols-2 lg:grid-cols-4 ">
                 <motion.div variants={container} initial="hidden" whileInView="visible">
                     <div className="h-64 rounded-2xl group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
                         <div className="h-96 w-84">

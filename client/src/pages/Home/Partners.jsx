@@ -35,7 +35,7 @@ export default function Partners() {
         },
     };
     return (
-        <section className="mt-8 pb-8 bg-white">
+        <section className="mt-8 pb-8">
             <div className="max-w-6xl mx-auto text-center">
                 <motion.div variants={container} initial="hidden" whileInView="visible">
                     <h2 className="text-5xl font-bold text-gray-800 mb-4 md:mb-6 ">OUR CLIENTS</h2>

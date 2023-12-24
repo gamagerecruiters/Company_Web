@@ -40,11 +40,11 @@ export default function AboutUs() {
         //     </div>
         // </section>
 
-        <section className="mt-5 bg-gray-100">
+        <section className="lg:ml-48 mt-12">
             <div className="container mx-auto px-4 py-16">
                 <div className="flex flex-wrap">
 
-                    <div className="w-full md:w-6/12 mb-8 md:mb-0">
+                    <div className=" w-full md:w-6/12 mb-8 md:mb-0">
                         <motion.div variants={container} initial="hidden" whileInView="visible">
                             <h1 className="text-5xl font-bold text-center md:text-left">ABOUT US</h1>
                         </motion.div>
@@ -65,7 +65,7 @@ export default function AboutUs() {
                         </motion.div>
                     </div>
 
-                    <div className="w-full md:w-6/12">
+                    <div className=" w-full md:w-6/12">
                         <motion.div
                             initial={{ opacity: 0, x: -50 }}
                             whileInView={{ opacity: 1, x: 0 }}
