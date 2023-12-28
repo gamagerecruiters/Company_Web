@@ -199,30 +199,19 @@ const JobDetail = () => {
                   {/* <span>{job?.company?.about}</span> */}
 
                   {/* Display the first paragraph */}
-                  <p>
-                    {job?.company?.about
-                      .split("\n\n")
-                      .map((paragraph, index) => (
-                        <span key={index}>
-                          {paragraph}
-                          <br />
-                        </span>
-                      ))}
-                  </p>
+
 
                   {/* Display the second paragraph */}
-                  <p>
-                    {job?.company?.about
-                      .split("\n\n")
-                      .map((paragraph, index) => (
-                        <span key={index}>
-                          {paragraph}
-                          <br />
-                        </span>
-                      ))}
-                  </p>
-                </>
-              )}
+                  {/* Display paragraphs */}
+                  {job?.company?.about.split('\n\n').map((paragraph, index) => (
+                     <p key={index} className='mb-4'>
+                        {paragraph}
+                         <br />
+                       </p>
+                     ))}
+                   </>
+                )}
+              
             </div>
 
             <div className="w-full">
