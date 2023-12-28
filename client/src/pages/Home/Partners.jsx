@@ -35,10 +35,10 @@ export default function Partners() {
         },
     };
     return (
-        <section className="mt-8 pb-8">
+        <section className="mt-14 pb-8">
             <div className="max-w-6xl mx-auto text-center">
                 <motion.div variants={container} initial="hidden" whileInView="visible">
-                    <h2 className="text-5xl font-bold text-gray-800 mb-4 md:mb-6 ">OUR CLIENTS</h2>
+                    <h2 className="text-4xl font-bold text-gray-800 mb-4 md:mb-6 ">OUR CLIENTS</h2>
                 </motion.div>
             </div>
             <div className="bg-white "> <Marquee direction="right" speed={50} delay={5}>

@@ -29,7 +29,7 @@ function MenuList({ user, onClick }) {
               <p className='text-sm font-semibold '>
                 {user?.firstName ?? user?.name}
               </p>
-              <span className='text-sm text-blue-600 '>
+              <span className='text-sm text-blue-700 '>
                 {user?.jobTitle ?? user?.email}
               </span>
             </div>
@@ -136,7 +136,7 @@ const Navbar = () => {
             </button>
           </a>
 
-          <ul className='hidden lg:flex gap-10 text-base'>
+          <ul className='hidden lg:flex gap-10 text-lg font-extrabold	'>
             <li>
               <Link to='/'>Home</Link>
             </li>
@@ -176,7 +176,7 @@ const Navbar = () => {
               <a href='/user-auth'>
                 <CustomButton
                   title='Sign In'
-                  containerStyles='text-blue-600 py-1.5 px-5 focus:outline-none hover:bg-blue-700 hover:text-white rounded-full text-base border border-blue-600'
+                  containerStyles='text-black py-1.5 px-5 focus:outline-none hover:bg-black hover:text-white rounded-full text-base border border-black'
                 />
               </a>
             ) : (

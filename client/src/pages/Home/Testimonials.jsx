@@ -8,7 +8,7 @@ export default function Testimonial() {
     <section className="testimonial--section" id="testimonial">
       <div className="testimonial--container-box">
         <div className=" testimonial--container">
-          <h2 className="testimonial--section--heading lg:text-5xl uppercase">Client Feedback</h2>
+          <h2 className="testimonial--section--heading lg:text-4xl uppercase">Client Feedback</h2>
         </div>
       </div>
       {/* <div className="bg-white "> */}

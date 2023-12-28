@@ -346,11 +346,6 @@ const Contact = () => {
                                                 <option value="Google">Google</option>
                                                 <option value="LinkedIn">LinkedIn</option>
                                                 <option value="Facebook">Facebook</option>
-                                                <option value="Yelp">Yelp</option>
-                                                <option value="WSJ">WSJ</option>
-                                                <option value="CEW">CEW</option>
-                                                <option value="MTM">MTM</option>
-                                                <option value="Referral ">Referral </option>
                                                 <option value="Other">Other</option>
                                             </select>
                                         </div>

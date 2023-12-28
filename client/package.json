@@ -16,6 +16,7 @@
     "@headlessui/react": "^1.7.15",
     "@mdbootstrap/react-testimonial-slider": "^1.0.0",
     "@reduxjs/toolkit": "^1.9.5",
+    "antd": "^5.12.5",
     "axios": "^1.4.0",
     "mdb-react-ui-kit": "^7.0.0",
     "moment": "^2.29.4",
@@ -27,7 +28,8 @@
     "react-hook-form": "^7.45.1",
     "react-icons": "^4.10.1",
     "react-redux": "^8.1.1",
-    "react-router-dom": "^6.14.1"
+    "react-router-dom": "^6.14.1",
+    "sweetalert2": "^11.10.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",

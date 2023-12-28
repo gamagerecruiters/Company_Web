@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer
-      className=" text-center text-neutral-600 bg-blue-700 dark:text-neutral-200 lg:text-left">
+      className=" text-center text-neutral-600 bg-blue-600 dark:text-white lg:text-left">
       <div
         className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-blue-300 lg:justify-between">
         <div className="mr-12 hidden lg:block">
@@ -74,19 +74,14 @@ const Footer = () => {
           <div className="">
             <h6
               className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="mr-3 h-4 w-4">
-                <path
-                  d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-              </svg>
-              Our Mission
+              <img src="/icon2.png" className="ml-5 mr-3 h-14" alt="Flowbite Logo" />
+              Gamage Recruiters
             </h6>
-            <p>
-              To showcase emerging market talent globally to
-              provide a genuinely local solution to organizational needs.
+            <p className="mb-4 flex items-center justify-center font-normal md:justify-start">
+              Gamage Recruiters Pvt Ltd, a growing executive search firm, prioritizes emerging markets,
+              efficiently filling executive talent pools for businesses'
+              potential and competence retention. Strategic global expansion involves diverse talent
+              collaboration and information sharing.
             </p>
           </div>
           {/* <!-- INDUSTRIES section --> */}

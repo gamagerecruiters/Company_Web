@@ -2,8 +2,18 @@ import "./styles/App.css";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
+import Swal from 'sweetalert2'
 
 export default function ContactUs() {
+
+  const Alert = () => {
+    Swal.fire(
+      "The Internet?",
+      "That thing is still around?",
+      "question"
+    )
+  }
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -43,7 +53,7 @@ export default function ContactUs() {
     <section id="Contact" className="contact--section text-center ">
       <div>
         <motion.div variants={container} initial="hidden" whileInView="visible">
-          <h2 className="mb-5 text-5xl font-bold leading-loose mr-0 text-center uppercase">Contact Us</h2>
+          <h2 className="mb-5 text-4xl font-bold leading-loose mr-0 text-center uppercase">Contact Us</h2>
           <h2>Hi, What’s your name</h2>
           <p className="text-lg">Let us know how to get back to you. </p>
         </motion.div>
@@ -176,8 +186,9 @@ export default function ContactUs() {
         </motion.div>
         <div>
           <button
+            onClick={Alert}
             type="submit"
-            class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+            className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
           >
             Submit
           </button>

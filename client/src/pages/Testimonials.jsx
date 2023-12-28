@@ -7,10 +7,14 @@ export default function Testimonial() {
                 <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.75)]">
                     <div className="flex h-full items-center justify-center">
                         <div className="px-6 text-center text-white md:px-12">
-                            <h1 className="mt-6 mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
+                            <h1 className="mt-16 mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
                                 TESTIMONIALS <br />
-                                <h2 className="mt-6 mb-16 text-2xl font-bold tracking-tight md:text-2xl xl:text-3xl">
-                                    <p>It is your trust, we grew on</p>
+                                <h2 className="mt-6 mb-16 text-xl font-bold tracking-tight md:text-xl xl:text-2xl">
+                                    <p>Real voices, real achievements - discover
+                                        success stories on our Testimonials Page,where our satisfied
+                                        clients and candidates share their journeys with Gamage
+                                        Recruiters.
+                                    </p>
                                 </h2>
                             </h1>
                         </div>

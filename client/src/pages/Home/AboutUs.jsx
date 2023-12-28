@@ -46,21 +46,21 @@ export default function AboutUs() {
 
                     <div className=" w-full md:w-6/12 mb-8 md:mb-0">
                         <motion.div variants={container} initial="hidden" whileInView="visible">
-                            <h1 className="text-5xl font-bold text-center md:text-left">ABOUT US</h1>
+                            <h1 className="text-4xl font-bold text-center md:text-left">ABOUT US</h1>
                         </motion.div>
                         <motion.div variants={container} initial="hidden" whileInView="visible">
                             <p className="text-xl mt-10 text-center md:text-left">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                                officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-                                recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-                                tempora numquam sint odit optio.
+                                Welcome to our About Us
+                                Page, where you get to know the heart of Gamage Recruiters.
                             </p>
                         </motion.div>
                         <motion.div variants={container} initial="hidden" whileInView="visible">
                             <p className="text-xl mt-6 text-center md:text-left">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                                officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-                                recusandae?
+                                We are a developing executive search and recruitment agency
+                                with a focus on emerging markets. Learn about our passion
+                                for precision in connecting talent with opportunities, and
+                                presenting talented opportunities to job listers, and the values
+                                that drive our commitment to excellence in every placement.
                             </p>
                         </motion.div>
                     </div>

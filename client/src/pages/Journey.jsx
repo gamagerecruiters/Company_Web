@@ -6,10 +6,11 @@ export default function journey() {
                 <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.75)]">
                     <div className="flex h-full items-center justify-center">
                         <div className="px-6 text-center text-white md:px-12">
-                            <h1 className="mt-6 mb-16 text-3xl font-bold tracking-tight md:text-4xl xl:text-6xl uppercase">
+                            <h1 className="mt-16 mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl uppercase">
                                 Our Journey <br />
-                                <h2 className="mt-10 mb-16 text-xl tracking-tight md:text-lg xl:text-xl">
-                                    <p>‘Passion’, ‘Commitment’, ‘Quality’ and ‘Personal Human Touch’</p>
+                                <h2 className="mt-6 mb-16 text-xl font-bold tracking-tight md:text-xl xl:text-2xl">
+                                    <p>Trusted advisors for five years, connecting talent with opportunity,
+                                        driven by professionalism, integrity, and excellence.</p>
                                 </h2>
                             </h1>
                         </div>
@@ -116,22 +117,23 @@ export default function journey() {
                             </div>
                         </div>
                     </div>
-                    <div className="mt-20 relative overflow-hidden bg-cover bg-no-repeat bg-[20%] h-[200px] bg-[url('https://tecdn.b-cdn.net/img/new/standard/city/078.jpg')]">
+                    <div className="mt-20 relative overflow-hidden bg-cover bg-no-repeat bg-[20%] h-[450px] bg-[url('https://tecdn.b-cdn.net/img/new/standard/city/078.jpg')]">
                         <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.75)]">
                             <div className="flex h-full items-center justify-center">
                                 <div className="px-6 text-center text-white md:px-12">
                                     <h1 className="mt-6 mb-16 text-sm tracking-tight md:text-sm sm:text-sm uppercase">
                                         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                                             <p className="mb-3 text-white dark:text-white">
-                                                <h1 className="mt-10 mb-1 font-bold text-xl tracking-tight md:text-xl xl:text-xl text-white ">
+                                                <h1 className="lg:mt-14 md:mt-20 mb-1 font-bold text-xl tracking-tight md:text-xl xl:text-3xl text-white ">
                                                     VISION</h1><br />
-                                                Our aim is to become the go-to organization for all human resource and business needs.
-                                                We are committed to providing exceptional service, expertise, professionalism,
-                                                honesty, and integrity to all our clients and community members.</p>
+                                                <h3 className="lg:mt-10 md:mt-20 mb-1 font-bold tracking-tight md:text-sm xl:text-2xl text-white ">Our aim is to become the go-to organization for all human resource and business needs.
+                                                    We are committed to providing exceptional service, expertise, professionalism,
+                                                    honesty, and integrity to all our clients and community members.</h3></p>
                                             <p className="mb-3 text-white dark:text-white">
-                                                <h1 className="mt-10 mb-1 font-bold text-xl tracking-tight md:text-xl xl:text-xl text-white ">
+                                                <h1 className="lg:mt-14 mb-1 font-bold text-xl tracking-tight md:text-xl xl:text-3xl text-white ">
                                                     MISSION</h1><br />
-                                                To showcase emerging market talent globally to provide a genuinely local solution to organizational needs.</p>
+                                                <h3 className="lg:mt-10 md:mt-20 mb-1 font-bold tracking-tight md:text-lg xl:text-2xl text-white ">
+                                                    To showcase emerging market talent globally to provide a genuinely local solution to organizational needs.</h3></p>
                                         </div>
                                         <h2 className="mt-6 mb-16 text-2xl font-bold tracking-tight md:text-2xl xl:text-3xl">
                                             <p></p>
@@ -153,7 +155,8 @@ export default function journey() {
                             <a href="#">
                                 <h5 className="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-gray-900">Executive Search & Headhunting </h5>
                             </a>
-                            <p className="mb-3 font-normal text-gray-900 dark:text-gray-900">Go to this step by step guideline process on how to certify for your weekly benefits:</p>
+                            <p className="mb-3 font-normal text-gray-900 dark:text-gray-900">
+                                Specialized in finding top-level executives, our headhunting service ensures the right leadership for your organization's success.</p>
                         </div>
                         <div className="max-w-sm p-6 bg-white border border-gray-100 rounded-lg shadow bg-white">
                             <svg className="w-7 h-7 text-gray-800 dark:text-gray-800 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -162,7 +165,7 @@ export default function journey() {
                             <a href="#">
                                 <h5 className="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-gray-900">Professional resume writing </h5>
                             </a>
-                            <p className="mb-3 font-normal text-gray-900 dark:text-gray-900">Go to this step by step guideline process on how to certify for your weekly benefits:</p>
+                            <p className="mb-3 font-normal text-gray-900 dark:text-gray-900">Expertly craft resumes to highlight skills and achievements, boosting chances for career success and advancement.</p>
                         </div>
                         <div className="max-w-sm p-6 bg-white border border-gray-100 rounded-lg shadow bg-white">
                             <svg className="w-7 h-7 text-gray-800 dark:text-gray-800 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -171,7 +174,7 @@ export default function journey() {
                             <a href="#">
                                 <h5 className="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-gray-900">Interview Preparation  </h5>
                             </a>
-                            <p className="mb-3 font-normal text-gray-900 dark:text-gray-900">Go to this step by step guideline process on how to certify for your weekly benefits:</p>
+                            <p className="mb-3 font-normal text-gray-900 dark:text-gray-900">Tailored guidance for successful interviews, boosting confidence and readiness for professional opportunities and career advancement</p>
                         </div>
                         <div className="max-w-sm p-6 bg-white border border-gray-100 rounded-lg shadow bg-white">
                             <svg className="w-7 h-7 text-gray-800 dark:text-gray-800 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -180,7 +183,7 @@ export default function journey() {
                             <a href="#">
                                 <h5 className="mb-10 text-3xl font-semibold tracking-tight text-gray-900 dark:text-gray-900">HR Consultancy  </h5>
                             </a>
-                            <p className="mb-3 font-normal text-gray-900 dark:text-gray-900">Go to this step by step guideline process on how to certify for your weekly benefits:</p>
+                            <p className="mb-3 font-normal text-gray-900 dark:text-gray-900">Strategic HR consulting for effective workforce management, talent acquisition, and organizational development, ensuring business success and growth.</p>
                         </div>
                     </div>
 

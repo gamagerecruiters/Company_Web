@@ -14,7 +14,7 @@ const SignUp = ({ open, setOpen }) => {
   const location = useLocation();
 
   const [isRegister, setIsRegister] = useState(false);
-  const [accountType, setAccountType] = useState("seeker");
+  const [accountType, setAccountType] = useState("company");
   const [isLoading, setIsLoading] = useState(false);
 
   const [errMsg, setErrMsg] = useState("");
@@ -277,7 +277,7 @@ const SignUp = ({ open, setOpen }) => {
                     </div>
                   </form>
 
-                  <div className='mt-4'>
+                  {/* <div className='mt-4'>
                     <p className='text-sm text-gray-700'>
                       {isRegister
                         ? "Already has an account?"
@@ -290,13 +290,13 @@ const SignUp = ({ open, setOpen }) => {
                         {isRegister ? "Login" : "Create Account"}
                       </span>
                     </p>
-                  </div>
+                  </div> */}
                 </Dialog.Panel>
               </Transition.Child>
             </div>
           </div>
-        </Dialog>
-      </Transition>
+        </Dialog >
+      </Transition >
     </>
   );
 };

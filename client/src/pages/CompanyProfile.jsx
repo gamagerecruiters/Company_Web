@@ -238,7 +238,7 @@ const CompanyProfile = () => {
   }
 
   return (
-    <div className='container mt-2 mx-auto p-5'>
+    <div className='container mb-48 mt-2 mx-auto p-5'>
       <div className=''>
         <div className='w-full flex flex-col md:flex-row gap-5 p-1 justify-between'>
           <h2 className='text-gray-600 text-2xl font-semibold '>
