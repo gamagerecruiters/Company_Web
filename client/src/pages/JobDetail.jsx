@@ -175,13 +175,16 @@ const JobDetail = () => {
                       {/* <span className='text-base'>
                         {job?.detail[0]?.requirements}
                       </span> */}
-                      <ul className="list-disc list-inside text-base">
-                        {job?.detail[0]?.requirements
-                          .split("\n")
-                          .map((requirement, index) => (
-                            <li key={index}>{requirement}</li>
+                        <ul className="list-disc list-inside text-base">
+                          {job?.detail[0]?.requirements.split('\n').map((requirement, index) => (
+                            <li key={index} style={{ listStyleType: 'none' }}>
+                              <span style={{ marginRight: '0.5rem' }}>&#x25cf;</span>
+                              <a href="#" style={{ color: 'black' }}>
+                              {requirement}
+                              </a>
+                            </li>
                           ))}
-                      </ul>
+                        </ul>
                     </>
                   )}
                 </>
@@ -198,10 +201,6 @@ const JobDetail = () => {
                   <p className="text-xl font-semibold">About Company</p>
                   {/* <span>{job?.company?.about}</span> */}
 
-                  {/* Display the first paragraph */}
-
-
-                  {/* Display the second paragraph */}
                   {/* Display paragraphs */}
                   {job?.company?.about.split('\n\n').map((paragraph, index) => (
                      <p key={index} className='mb-4'>
