@@ -6,10 +6,11 @@ export default function journey() {
                 <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.75)]">
                     <div className="flex h-full items-center justify-center">
                         <div className="px-6 text-center text-white md:px-12">
-                            <h1 className="mt-16 mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl uppercase">
-                                Our Journey <br />
+                            <h1 className="mt-16 mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
+                                OUR JOURNEY <br />
                                 <h2 className="mt-6 mb-16 text-xl font-bold tracking-tight md:text-xl xl:text-2xl">
                                     <p>Trusted advisors for five years, connecting talent with opportunity,
+                                        <br />
                                         driven by professionalism, integrity, and excellence.</p>
                                 </h2>
                             </h1>

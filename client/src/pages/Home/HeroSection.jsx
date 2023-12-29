@@ -16,9 +16,10 @@ export default function HeroSection() {
                 <motion.div
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.5 }}>
+                    transition={{ duration: 0.5 }}
+                >
                     <div className="lg:ml-14 hero--section--content">
-                        <p className="section--title">Hey, We Are</p>
+                        <p className="italic ... section--title">Hey, We Are</p>
                         <h1 className="lg:text-10xl hero--section--title">
                             <span
                                 className=" hero--section-title--color"
@@ -26,23 +27,21 @@ export default function HeroSection() {
                             >
                                 GAMAGE
                             </span>{" "}
-
                             Recruiters
                         </h1>
-                        <p className="lg:text-xl hero--section-description">
-                            Your go-to recruiting site for
-                            seamless talent solutions. What sets us apart? <br />It’s our
-                            connection of top talent with great opportunities,
-                            <br /> we're your
-                            key to success to finding jobs or posting them to hire talent.
-
+                        <p className="lg:text-xl hero--section-description italic ...">
+                            Your go-to recruiting site for seamless talent solutions. What
+                            sets us apart? <br />
+                            It’s our connection of top talent with great opportunities,
+                            <br /> we're your key to success to finding jobs or posting them
+                            to hire talent.
                         </p>
                     </div>
                 </motion.div>
                 <button
                     onClick={navigateToContacts}
                     type="button"
-                    className="lg:ml-14 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    className="lg:ml-14 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-100 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-500 dark:hover:bg-blue-600 dark:focus:ring-blue-500"
                 >
                     Contact Us
                 </button>{" "}
@@ -50,8 +49,9 @@ export default function HeroSection() {
             <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5 }}>
-                <div className=" hero--section--img">
+                transition={{ duration: 0.5 }}
+            >
+                <div className="brightness-90 hero--section--img">
                     <img src="/img/Clients/hero.png" alt="Hero Section" />
                 </div>
             </motion.div>

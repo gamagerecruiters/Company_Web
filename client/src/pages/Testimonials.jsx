@@ -11,7 +11,9 @@ export default function Testimonial() {
                                 TESTIMONIALS <br />
                                 <h2 className="mt-6 mb-16 text-xl font-bold tracking-tight md:text-xl xl:text-2xl">
                                     <p>Real voices, real achievements - discover
-                                        success stories on our Testimonials Page,where our satisfied
+                                        success stories on our Testimonials Page,
+                                        <br />
+                                        where our satisfied
                                         clients and candidates share their journeys with Gamage
                                         Recruiters.
                                     </p>

@@ -171,11 +171,30 @@ const UploadJob = () => {
             />
             <div className='flex flex-col'>
               <label className='text-gray-600 text-sm mb-1'>
+                Company OverView
+              </label>
+              <textarea
+                className='rounded border border-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-base px-4 py-2 resize-none'
+                rows={8}
+                cols={6}
+                {...register("overview", {
+                  required: "Company OverView is required!",
+                })}
+                aria-invalid={errors.overview ? "true" : "false"}
+              ></textarea>
+              {errors.overview && (
+                <span role='alert' className='text-xs text-red-500 mt-0.5'>
+                  {errors.overview?.message}
+                </span>
+              )}
+            </div>
+            <div className='flex flex-col'>
+              <label className='text-gray-600 text-sm mb-1'>
                 Job Description
               </label>
               <textarea
                 className='rounded border border-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-base px-4 py-2 resize-none'
-                rows={4}
+                rows={8}
                 cols={6}
                 {...register("desc", {
                   required: "Job Description is required!",
@@ -193,7 +212,7 @@ const UploadJob = () => {
               <label className='text-gray-600 text-sm mb-1'>Requirements</label>
               <textarea
                 className='rounded border border-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-base px-4 py-2 resize-none'
-                rows={4}
+                rows={8}
                 cols={6}
                 {...register("requirements")}
               ></textarea>

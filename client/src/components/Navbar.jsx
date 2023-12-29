@@ -123,6 +123,7 @@ const Navbar = () => {
 
   return (
     <>
+
       <div className='relative bg-[#f7fdfd] z-50'>
         <nav className='container mx-auto flex items-left justify-between p-5'>
           <a className="flex items-left space-x-3 rtl:space-x-reverse gap-4">
@@ -136,7 +137,7 @@ const Navbar = () => {
             </button>
           </a>
 
-          <ul className='hidden lg:flex gap-10 text-lg font-extrabold	'>
+          <ul className='lg:mt-2 hidden lg:flex gap-10 text-lg font-extrabold	'>
             <li>
               <Link to='/'>Home</Link>
             </li>

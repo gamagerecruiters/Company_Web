@@ -5,6 +5,7 @@ import {
   deleteJobPost,
   getJobById,
   getJobPosts,
+  updateJobPost,
   updateJob,
 } from "../controllers/jobController.js";
 
@@ -22,5 +23,8 @@ router.get("/get-job-detail/:id", getJobById);
 
 // DELETE JOB POST
 router.delete("/delete-job/:id", userAuth, deleteJobPost);
+
+// UPDATE DATA
+router.put("/update-job/:id", userAuth, updateJobPost);
 
 export default router;
