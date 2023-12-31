@@ -4,6 +4,7 @@ import AboutUs from "../AboutUs";
 import Testimonial from "../Testimonials";
 import Partners from "../Partners";
 import ContactUs from "../ContactUs";
+// import Card from "../card"
 // import Slider from "../Slider"
 
 
@@ -11,15 +12,16 @@ import ContactUs from "../ContactUs";
 
 export default function Home() {
     return (
-        <>
-
+        
+<>
             <HeroSection />
             <Industries />
             <AboutUs />
             <Testimonial />
             <Partners />
-            {/* <Slider /> */}
+            {/* <Card /> */}
             <ContactUs />
         </>
+        
     );
 }

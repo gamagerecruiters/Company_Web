@@ -51,7 +51,7 @@ const JobDetail = () => {
 
         if (res?.success) {
           alert(res?.messsage);
-          window.location.replace("/");
+          window.location.replace("/find-jobs");
         }
       }
       setIsFetching(false);
@@ -163,9 +163,9 @@ const JobDetail = () => {
             <div className="my-6">
               {selected === "0" ? (
                 <>
-                  <p className="text-xl font-semibold">Company OverView</p>
+                  {/* <p className="text-xl font-semibold">Company OverView</p>
 
-                  <span className="text-base">{job?.detail[0]?.overview}</span>
+                  <span className="text-base">{job?.detail[0]?.overview}</span> */}
 
                   <p className="mt-5 text-xl font-semibold">Job Decsription</p>
 
@@ -180,16 +180,16 @@ const JobDetail = () => {
                       <ul className="list-disc list-inside text-base">
                         {job?.detail[0]?.requirements
                           .split("\n")
-                          .map((requirement, index, array) => {
-                            if (index === array.length - 1) {
-                              return null;
-                            }
-                            return (
-                              <li key={index} className="">
-                                {requirement}
-                              </li>
-                            );
-                          })}
+                          .map((requirement, index) => (
+                            // if (index === array.length - 1) {
+                            //   return null;
+                            // }
+                            // return (
+                            <li key={index} className="">
+                              {requirement}
+                            </li>
+                            // );
+                          ))}
                       </ul>
                     </>
                   )}
@@ -225,7 +225,6 @@ const JobDetail = () => {
                   onClick={handleDeletePost}
                   containerStyles={`w-full flex items-center justify-center text-white bg-red-700 py-3 px-5 outline-none rounded-full text-base`}
                 />
-
               ) : (
                 <a
                   href="https://forms.gle/BEQjtFBMKNAwmkhS7"

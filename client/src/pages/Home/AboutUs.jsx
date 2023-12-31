@@ -56,11 +56,15 @@ export default function AboutUs() {
                         </motion.div>
                         <motion.div variants={container} initial="hidden" whileInView="visible">
                             <p className="text-xl mt-6 text-center md:text-left">
-                                We are a developing executive search and recruitment agency
-                                with a focus on emerging markets. Learn about our passion
-                                for precision in connecting talent with opportunities, and
-                                presenting talented opportunities to job listers, and the values
-                                that drive our commitment to excellence in every placement.
+                                Gamage Recruiters is an evolving executive search and recruitment agency
+                                that directs its focus toward burgeoning markets. Explore our profound
+                                commitment to precision, skillfully connecting talented individuals with
+                                opportunities, and seamlessly presenting those opportunities to prospective
+                                employers. At the heart of our ethos lies an unwavering dedication to excellence,
+                                evident in every placement we make. We are not just a recruitment agency; we are
+                                architects of careers and catalysts for organizational growth. Join us in this journey
+                                where talent meets opportunity, and aspirations find their professional homes. At Gamage
+                                Recruiters, we transcend conventional recruitment; we shape destinies.
                             </p>
                         </motion.div>
                     </div>
@@ -70,7 +74,7 @@ export default function AboutUs() {
                             initial={{ opacity: 0, x: -50 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.5 }}>
-                            <img className="w-4/6 h-6/6 border-10 border-transparent rounded-full mx-auto" src="./icon.jpg" alt="About Us" />
+                            <img className="mt-14 w-3/6 h-/6 border-10 border-transparent rounded-full mx-auto" src="./icon.jpg" alt="About Us" />
                         </motion.div>
                     </div>
 

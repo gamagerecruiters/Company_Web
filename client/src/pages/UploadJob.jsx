@@ -169,7 +169,7 @@ const UploadJob = () => {
               })}
               error={errors.location ? errors.location?.message : ""}
             />
-            <div className='flex flex-col'>
+            {/* <div className='flex flex-col'>
               <label className='text-gray-600 text-sm mb-1'>
                 Company OverView
               </label>
@@ -187,7 +187,7 @@ const UploadJob = () => {
                   {errors.overview?.message}
                 </span>
               )}
-            </div>
+            </div> */}
             <div className='flex flex-col'>
               <label className='text-gray-600 text-sm mb-1'>
                 Job Description

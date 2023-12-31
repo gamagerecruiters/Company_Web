@@ -11,7 +11,6 @@ export const createJob = async (req, res, next) => {
       salary,
       vacancies,
       experience,
-      overview,
       desc,
       requirements,
     } = req.body;
@@ -21,7 +20,6 @@ export const createJob = async (req, res, next) => {
       !jobType ||
       !location ||
       !salary ||
-      !overview ||
       !requirements ||
       !desc
     ) {
@@ -41,7 +39,7 @@ export const createJob = async (req, res, next) => {
       salary,
       vacancies,
       experience,
-      detail: { overview, desc, requirements },
+      detail: { desc, requirements },
       company: id,
     };
 
@@ -76,7 +74,6 @@ export const updateJob = async (req, res, next) => {
       salary,
       vacancies,
       experience,
-      overview,
       desc,
       requirements,
     } = req.body;
@@ -87,7 +84,6 @@ export const updateJob = async (req, res, next) => {
       !jobType ||
       !location ||
       !salary ||
-      !overview ||
       !desc ||
       !requirements
     ) {
@@ -106,7 +102,7 @@ export const updateJob = async (req, res, next) => {
       salary,
       vacancies,
       experience,
-      detail: { overview, desc, requirements },
+      detail: { desc, requirements },
       _id: jobId,
     };
 

@@ -127,7 +127,7 @@ const Navbar = () => {
       <div className='relative bg-[#f7fdfd] z-50'>
         <nav className='container mx-auto flex items-left justify-between p-5'>
           <a className="flex items-left space-x-3 rtl:space-x-reverse gap-4">
-            <img src="/icon.jpg" onClick={navigateToHome} className="ml-5 h-10" alt="Flowbite Logo" />
+            <img src="/icon.jpg" onClick={navigateToHome} className="ml-5 h-14" alt="Flowbite Logo" />
             <span onClick={navigateToHome} className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black-500">Gamage Recruiters</span>
             <button
               className="blocklg:hidden lg:text-slate-100 text-slate-900"
@@ -137,7 +137,7 @@ const Navbar = () => {
             </button>
           </a>
 
-          <ul className='lg:mt-2 hidden lg:flex gap-10 text-lg font-extrabold	'>
+          <ul className='lg:mt-3 hidden lg:flex gap-10 text-lg font-extrabold	'>
             <li>
               <Link to='/'>Home</Link>
             </li>

@@ -1,101 +1,18 @@
 import React from "react";
 import { JobImg } from "../assets";
-// import { useCallback } from "react";
-// import Particles from "react-particles";
-// import { loadSlim } from "tsparticles-slim";
+
 
 
 const About = () => {
 
-  // const particlesInit = useCallback(async engine => {
-  //   console.log(engine);
-  //   await loadSlim(engine);
-  // }, []);
-
-  // const particlesLoaded = useCallback(async container => {
-  //   await console.log(container);
-  // }, []);
-
+  
   return (
     <>
       <div className="relative overflow-hidden bg-cover bg-no-repeat bg-[50%] h-[250px] bg-[url('https://tecdn.b-cdn.net/img/new/standard/city/078.jpg')]">
         <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.75)]">
           <div className="flex h-full items-center justify-center">
             <div className="px-6 text-center text-white md:px-12">
-              {/* <Particles
-                id="tsparticles"
-                init={particlesInit}
-                loaded={particlesLoaded}
-                options={{
-                  // background: {
-                  //   color: {
-                  //     value: "#000000",
-                  //   },
-                  // },
-                  fpsLimit: 120,
-                  interactivity: {
-                    events: {
-                      onClick: {
-                        enable: true,
-                        mode: "push",
-                      },
-                      onHover: {
-                        enable: true,
-                        mode: "repulse",
-                      },
-                      resize: true,
-                    },
-                    modes: {
-                      push: {
-                        quantity: 4,
-                      },
-                      repulse: {
-                        distance: 200,
-                        duration: 0.4,
-                      },
-                    },
-                  },
-                  particles: {
-                    color: {
-                      value: "#000000",
-                    },
-                    links: {
-                      color: "#000000",
-                      distance: 150,
-                      enable: true,
-                      opacity: 0.1,
-                      width: 1,
-                    },
-                    move: {
-                      direction: "none",
-                      enable: true,
-                      outModes: {
-                        default: "bounce",
-                      },
-                      random: false,
-                      speed: 6,
-                      straight: false,
-                    },
-                    number: {
-                      density: {
-                        enable: true,
-                        area: 800,
-                      },
-                      value: 80,
-                    },
-                    opacity: {
-                      value: 0.1,
-                    },
-                    shape: {
-                      type: "circle",
-                    },
-                    size: {
-                      value: { min: 1, max: 5 },
-                    },
-                  },
-                  detectRetina: true,
-                }}
-              /> */}
+              
               <h1 className="mt-16 mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
                 ABOUT US <br />
                 <h2 className="mt-6 mb-16 text-xl font-bold tracking-tight md:text-xl xl:text-2xl">
